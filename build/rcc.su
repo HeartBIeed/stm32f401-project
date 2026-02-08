@@ -1,0 +1,3 @@
+rcc.c:3:6:SystemClock_HSI_8MHz	4	static
+rcc.c:16:6:SystemClock_HSE	4	static
+rcc.c:28:6:PLL_enable	8	static
