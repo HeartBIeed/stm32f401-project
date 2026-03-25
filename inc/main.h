@@ -14,7 +14,8 @@
 #include "rcc.h"
 #include "uart.h"
 #include "timer.h"
-
-
+#include "spi.h"
+#include "st7735.h"
+#include "rtc.h"
 
 #endif /* MAIN_H_ */

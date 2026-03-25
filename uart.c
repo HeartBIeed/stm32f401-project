@@ -2,6 +2,7 @@
 
 volatile uint8_t uart1_flag = 0;
 char data_buffer[20];
+volatile uint8_t usart_data_buffer[32]; //буффер uart
 
 void UART_init(uint16_t baud)
 {
@@ -28,7 +29,7 @@ void UART_init(uint16_t baud)
 	USART1->CR2 = 0;
 	USART1->CR3 = 0;
 
-	uint16_t div_baud8 = baud/8;
+	uint16_t div_baud8 = baud; // /8
 	USART1->BRR = (FCPU+(div_baud8/2))/div_baud8; 
 
 	USART1->CR1 |= USART_CR1_TE | USART_CR1_RE | USART_CR1_UE; 
@@ -88,55 +89,34 @@ void usart1_ptr_str(char *str) // TX string
 
 //************************************** */
 
-void get_usart_command()
-{
-	if (uart1_flag)
-		{
-			if (strncmp((char*)data_buffer,"gamma",5) == 0) // сравниваем первые символы
-			{
-				usart1_ptr_str("gamma");
-				uart1_flag = 0;
-			}
 
-			if (strncmp((char*)data_buffer,"time",4) == 0) 
-			{
-				usart1_ptr_str("time");
-				uart1_flag = 0;
-			}
+int USART_commands(){
 
-			if (strncmp((char*)data_buffer,"snd",3) == 0) 
-			{
-			char *command = strtok(data_buffer," ");
-			char *sound_mode = strtok(NULL, ",");
+	if (strncmp((char*)usart_data_buffer,"st",2) == 0) 
+	{
 
-			if (strcmp(sound_mode, "on"))
-				{
-					usart1_ptr_str("Sound ON\r\n");
-				}
-			else if (strcmp(sound_mode, "off"))
-				{
-					usart1_ptr_str("Sound OFF\r\n");
-				}
+		char *command = strtok((char*)usart_data_buffer," ");
+		char *h_char = strtok(NULL, ",");
+		char *m_char = strtok(NULL, ",");
 
-			uart1_flag = 0;
+		int h = atoi(h_char);
+		int m = atoi(m_char);
 
-			}
+		RTC_setTime(h,m);
 
-		else
-		{
-			usart1_ptr_str("GET: ");
-			usart1_ptr_str((char*)data_buffer);
-			usart1_ptr_str("\r\n");
-		}				
 
-		uart1_flag = 0;
+		char string[32];
+		sprintf(string, "SET TIME -> %2d:%2d \r\n",h,m);
+		usart1_ptr_str(string);
+	 	usart_data_buffer[0] = '\0';
 
-	}		
+	 		return 1;
 
+	} else {
+			return 0;
+	}
+		
 }
-
-
-
 
 
 

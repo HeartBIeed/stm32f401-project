@@ -13,9 +13,10 @@ uint8_t usart1_recieve_byte();
 void usart1_rxen_flag();
 void usart1_ptr_str(char *str);
 void usart1_echo();
-void get_usart_command();
+int USART_commands();
+
 
 extern volatile uint8_t uart1_flag;
-
+extern volatile uint8_t usart_data_buffer[32];
 
 #endif /* UART_H_ */
