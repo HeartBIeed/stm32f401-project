@@ -47,7 +47,7 @@ void PLL_enable() //84 MHz from HSE 25 MHz
     //div bus
     RCC->CFGR |= (0b0<<RCC_CFGR_HPRE_Pos); // APB /1
     RCC->CFGR |= (0b101<<RCC_CFGR_PPRE1_Pos); // APB1 /4
-    RCC->CFGR |= (0b100<<RCC_CFGR_PPRE2_Pos); // APB2 /2
+    RCC->CFGR |= (0b000<<RCC_CFGR_PPRE2_Pos); // APB2 /2
     
 /* Делители:
     0b000	/1

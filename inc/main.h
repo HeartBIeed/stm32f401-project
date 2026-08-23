@@ -1,6 +1,8 @@
 #ifndef MAIN_H_
 #define MAIN_H_
 
+#define FCPU 84000000u
+
 
 #include <stdint.h>
 #include <stdio.h>
