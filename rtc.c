@@ -9,7 +9,7 @@ void RTC_init(){
 
 	RCC->BDCR |= (1<<0); //LSE on
 
-	uint32_t timeout = 10000;
+	uint32_t timeout = TIMEOUT;
 	while(!(RCC->BDCR & (1<<1))){ // wait LSE ready
         if(--timeout == 0) break; // Защита от зависания
 	}

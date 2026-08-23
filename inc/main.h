@@ -2,7 +2,7 @@
 #define MAIN_H_
 
 #define FCPU 84000000u
-
+#define TIMEOUT 10000
 
 #include <stdint.h>
 #include <stdio.h>
@@ -17,7 +17,7 @@
 #include "uart.h"
 #include "timer.h"
 #include "spi.h"
-#include "st7735.h"
+//#include "st7735.h"
 #include "rtc.h"
 
 #endif /* MAIN_H_ */

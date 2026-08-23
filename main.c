@@ -13,27 +13,27 @@ GPIOC->MODER |= ( 1 << (13*2)); //PC13 / output 01
 
 }
 
-void print_Time()
+void RTC_print_time()
 {
 
 	RTC_getTime(&hour,&min,&sec);
 	char text[20]={"\0"};	
 	sprintf(text, "TIME %02d:%02d:%02d \r\n",hour,min,sec);
-	usart1_ptr_str(text); 
+	USART1_send_string(text); 
 
 }
 
 int main(void)
 {
-	PLL_enable();
+	SystemClock_PLL_84MHz();
 	SysTick_init();
 	DWT_init();
 	gpio_init();
-	UART_init(9600);
+	USART1_init(9600);
 	//SPI1_init();
 	RTC_init();
 //	RTC_setTime(4,41);
-usart1_ptr_str("start 76757465 \r\n"); 
+зUSART1_send_string("start \r\n"); 
 
 uint32_t start[3] = {0}; // нулевые стартовые значения 
 						 // для неблокирующих задержек
@@ -45,7 +45,7 @@ if (ms_ticks - start[0] >= 1000)
 	{
 		GPIOC->ODR ^= (1 << 13);
 		start[0] = ms_ticks;
-		print_Time();
+		RTC_print_time();
 	}
 
 

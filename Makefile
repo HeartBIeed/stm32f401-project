@@ -39,7 +39,7 @@ build/$(TARGET).elf: $(OBJ) $(SYS_OBJ) $(STARTUP).o $(LOADER)
 	-Wl,--start-group -lc -lm -Wl,--end-group
 
 
-	@/bin/echo -e "\033[1;33m"
+	@/bin/echo -e "\033[1;36m"
 
 	arm-none-eabi-size $@
 

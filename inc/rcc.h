@@ -5,7 +5,7 @@
 
 void SystemClock_HSE(void);
 void SystemClock_HSI_8MHz(void);
-void PLL_enable(void);
+void SystemClock_PLL_84MHz(void);
 
 
 

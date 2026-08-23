@@ -2,7 +2,7 @@
 
 void ST7735_setPins(){
 
-	RCC->AHBENR |= RCC_AHBENR_GPIOAEN; 
+	RCC->AHB1ENR |= RCC_AHB1ENR_GPIOAEN; 
 
 	GPIOA->MODER &= ~((3 << (RST*2))|(3 << (AO*2))|(3 << (CS*2))); 
 	GPIOA->MODER |= ((1 << (RST*2))|(1 << (AO*2))|(1 << (CS*2))); // output

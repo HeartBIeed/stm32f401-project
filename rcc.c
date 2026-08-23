@@ -25,7 +25,7 @@ void SystemClock_HSE(void) // 25 MHz BlackPill
 
     }
 
-void PLL_enable() //84 MHz from HSE 25 MHz
+void SystemClock_PLL_84MHz() //84 MHz from HSE 25 MHz
     {
  //   RCC->CR |= RCC_CR_HSEBYP;  // включаем bypass
     RCC->CR |=RCC_CR_HSEON; // enable HSE
@@ -49,7 +49,7 @@ void PLL_enable() //84 MHz from HSE 25 MHz
     RCC->CFGR |= (0b101<<RCC_CFGR_PPRE1_Pos); // APB1 /4
     RCC->CFGR |= (0b000<<RCC_CFGR_PPRE2_Pos); // APB2 /2
     
-    
+
 /* Делители:
     0b000	/1
     0b100	/2
