@@ -21,13 +21,10 @@ CFLAGS = -mcpu=$(MCPU) -g3 --specs=nano.specs -mthumb -mfloat-abi=soft -Wall \
 
 all: build/$(TARGET).hex
 
-build:
-	mkdir -p build
 
 build/%.o: %.c | build
 	$(CC) $(CFLAGS) -c -O0 -ffunction-sections -fdata-sections -fstack-usage -o $@ $<
 
-# system_stm32f4xx.c 
 $(SYS_OBJ): $(SYS_SRC)
 	mkdir -p $(dir $@)
 	$(CC) $(CFLAGS) -c $< -o $@
@@ -40,7 +37,13 @@ build/$(TARGET).elf: $(OBJ) $(SYS_OBJ) $(STARTUP).o $(LOADER)
 	--specs=nosys.specs -T"$(LOADER)" -Wl,-Map=build/$(TARGET).map \
 	-Wl,--gc-sections -static -mfloat-abi=soft -mthumb \
 	-Wl,--start-group -lc -lm -Wl,--end-group
+
+
+	@/bin/echo -e "\033[1;33m"
+
 	arm-none-eabi-size $@
+
+	@/bin/echo -e "\033[0m"
 
 build/$(TARGET).hex: build/$(TARGET).elf
 	$(OBJCOPY) -O ihex $< $@
