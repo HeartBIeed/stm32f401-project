@@ -1649,259 +1649,260 @@ LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib
  .text.RTC_print_time
                 0x08001018       0x5c build/main.o
                 0x08001018                RTC_print_time
- .text.main     0x08001074      0x10c build/main.o
+ .text.main     0x08001074      0x108 build/main.o
                 0x08001074                main
  .text.modbus_init
-                0x08001180       0x3c build/modbus.o
-                0x08001180                modbus_init
+                0x0800117c       0x3c build/modbus.o
+                0x0800117c                modbus_init
  .text.modbus_poll
-                0x080011bc       0xaa build/modbus.o
-                0x080011bc                modbus_poll
+                0x080011b8       0xaa build/modbus.o
+                0x080011b8                modbus_poll
  .text.modbus_frame_check
-                0x08001266       0x96 build/modbus.o
-                0x08001266                modbus_frame_check
+                0x08001262       0x96 build/modbus.o
+                0x08001262                modbus_frame_check
  .text.modbus_frame_reset
-                0x080012fc       0x22 build/modbus.o
-                0x080012fc                modbus_frame_reset
+                0x080012f8       0x22 build/modbus.o
+                0x080012f8                modbus_frame_reset
  .text.modbus_handle_read_holding
-                0x0800131e      0x158 build/modbus.o
-                0x0800131e                modbus_handle_read_holding
- *fill*         0x08001476        0x2 
+                0x0800131a      0x158 build/modbus.o
+                0x0800131a                modbus_handle_read_holding
+ *fill*         0x08001472        0x2 
  .text.SystemClock_PLL_84MHz
-                0x08001478       0xa4 build/rcc.o
-                0x08001478                SystemClock_PLL_84MHz
+                0x08001474       0xa4 build/rcc.o
+                0x08001474                SystemClock_PLL_84MHz
  .text.ring_buffer_init
-                0x0800151c       0x48 build/ring_buffer.o
-                0x0800151c                ring_buffer_init
+                0x08001518       0x48 build/ring_buffer.o
+                0x08001518                ring_buffer_init
  .text.ring_buffer_put
-                0x08001564       0x56 build/ring_buffer.o
-                0x08001564                ring_buffer_put
+                0x08001560       0x56 build/ring_buffer.o
+                0x08001560                ring_buffer_put
  .text.ring_buffer_get
-                0x080015ba       0x58 build/ring_buffer.o
-                0x080015ba                ring_buffer_get
- *fill*         0x08001612        0x2 
+                0x080015b6       0x58 build/ring_buffer.o
+                0x080015b6                ring_buffer_get
+ *fill*         0x0800160e        0x2 
  .text.RTC_init
-                0x08001614       0xd4 build/rtc.o
-                0x08001614                RTC_init
+                0x08001610       0xd4 build/rtc.o
+                0x08001610                RTC_init
  .text.RTC_getTime
-                0x080016e8       0x9c build/rtc.o
-                0x080016e8                RTC_getTime
+                0x080016e4       0x9c build/rtc.o
+                0x080016e4                RTC_getTime
  .text.SysTick_init
-                0x08001784       0x38 build/timer.o
-                0x08001784                SysTick_init
+                0x08001780       0x38 build/timer.o
+                0x08001780                SysTick_init
  .text.DWT_init
-                0x080017bc       0x34 build/timer.o
-                0x080017bc                DWT_init
+                0x080017b8       0x34 build/timer.o
+                0x080017b8                DWT_init
  .text.SysTick_Handler
-                0x080017f0       0x1c build/timer.o
-                0x080017f0                SysTick_Handler
+                0x080017ec       0x1c build/timer.o
+                0x080017ec                SysTick_Handler
  .text.get_mills
-                0x0800180c       0x14 build/timer.o
-                0x0800180c                get_mills
+                0x08001808       0x14 build/timer.o
+                0x08001808                get_mills
  .text._delay_us
-                0x08001820       0x4c build/timer.o
-                0x08001820                _delay_us
+                0x0800181c       0x4c build/timer.o
+                0x0800181c                _delay_us
  .text.__NVIC_EnableIRQ
-                0x0800186c       0x38 build/uart.o
+                0x08001868       0x38 build/uart.o
  .text.__NVIC_ClearPendingIRQ
-                0x080018a4       0x3c build/uart.o
+                0x080018a0       0x3c build/uart.o
  .text.USART1_init
-                0x080018e0      0x100 build/uart.o
-                0x080018e0                USART1_init
+                0x080018dc      0x100 build/uart.o
+                0x080018dc                USART1_init
  .text.USART1_send_byte
-                0x080019e0       0x2c build/uart.o
-                0x080019e0                USART1_send_byte
+                0x080019dc       0x2c build/uart.o
+                0x080019dc                USART1_send_byte
  .text.USART1_send_string
-                0x08001a0c       0x2a build/uart.o
-                0x08001a0c                USART1_send_string
- *fill*         0x08001a36        0x2 
+                0x08001a08       0x2a build/uart.o
+                0x08001a08                USART1_send_string
+ *fill*         0x08001a32        0x2 
  .text.USART1_IRQHandler
-                0x08001a38       0x34 build/uart.o
-                0x08001a38                USART1_IRQHandler
+                0x08001a34       0x34 build/uart.o
+                0x08001a34                USART1_IRQHandler
  .text.USART1_read_byte
-                0x08001a6c       0x20 build/uart.o
-                0x08001a6c                USART1_read_byte
+                0x08001a68       0x20 build/uart.o
+                0x08001a68                USART1_read_byte
  .text.Reset_Handler
-                0x08001a8c       0x50 startup_stm32f401rctx.o
-                0x08001a8c                Reset_Handler
+                0x08001a88       0x50 startup_stm32f401rctx.o
+                0x08001a88                Reset_Handler
  .text.Default_Handler
-                0x08001adc        0x2 startup_stm32f401rctx.o
-                0x08001adc                RTC_Alarm_IRQHandler
-                0x08001adc                EXTI2_IRQHandler
-                0x08001adc                DebugMon_Handler
-                0x08001adc                SPI4_IRQHandler
-                0x08001adc                TIM1_CC_IRQHandler
-                0x08001adc                DMA2_Stream5_IRQHandler
-                0x08001adc                HardFault_Handler
-                0x08001adc                DMA1_Stream5_IRQHandler
-                0x08001adc                PVD_IRQHandler
-                0x08001adc                SDIO_IRQHandler
-                0x08001adc                TAMP_STAMP_IRQHandler
-                0x08001adc                PendSV_Handler
-                0x08001adc                NMI_Handler
-                0x08001adc                EXTI3_IRQHandler
-                0x08001adc                TIM1_UP_TIM10_IRQHandler
-                0x08001adc                I2C3_ER_IRQHandler
-                0x08001adc                EXTI0_IRQHandler
-                0x08001adc                I2C2_EV_IRQHandler
-                0x08001adc                DMA1_Stream2_IRQHandler
-                0x08001adc                FPU_IRQHandler
-                0x08001adc                UsageFault_Handler
-                0x08001adc                DMA2_Stream2_IRQHandler
-                0x08001adc                SPI1_IRQHandler
-                0x08001adc                TIM1_BRK_TIM9_IRQHandler
-                0x08001adc                DMA2_Stream3_IRQHandler
-                0x08001adc                USART6_IRQHandler
-                0x08001adc                DMA2_Stream0_IRQHandler
-                0x08001adc                TIM4_IRQHandler
-                0x08001adc                I2C1_EV_IRQHandler
-                0x08001adc                DMA1_Stream6_IRQHandler
-                0x08001adc                DMA1_Stream1_IRQHandler
-                0x08001adc                TIM3_IRQHandler
-                0x08001adc                RCC_IRQHandler
-                0x08001adc                Default_Handler
-                0x08001adc                EXTI15_10_IRQHandler
-                0x08001adc                ADC_IRQHandler
-                0x08001adc                DMA1_Stream7_IRQHandler
-                0x08001adc                TIM5_IRQHandler
-                0x08001adc                DMA2_Stream7_IRQHandler
-                0x08001adc                I2C3_EV_IRQHandler
-                0x08001adc                EXTI9_5_IRQHandler
-                0x08001adc                RTC_WKUP_IRQHandler
-                0x08001adc                SPI2_IRQHandler
-                0x08001adc                MemManage_Handler
-                0x08001adc                DMA1_Stream0_IRQHandler
-                0x08001adc                SVC_Handler
-                0x08001adc                EXTI4_IRQHandler
-                0x08001adc                WWDG_IRQHandler
-                0x08001adc                TIM2_IRQHandler
-                0x08001adc                OTG_FS_WKUP_IRQHandler
-                0x08001adc                TIM1_TRG_COM_TIM11_IRQHandler
-                0x08001adc                EXTI1_IRQHandler
-                0x08001adc                USART2_IRQHandler
-                0x08001adc                I2C2_ER_IRQHandler
-                0x08001adc                DMA2_Stream1_IRQHandler
-                0x08001adc                FLASH_IRQHandler
-                0x08001adc                DMA2_Stream4_IRQHandler
-                0x08001adc                BusFault_Handler
-                0x08001adc                OTG_FS_IRQHandler
-                0x08001adc                SPI3_IRQHandler
-                0x08001adc                DMA1_Stream4_IRQHandler
-                0x08001adc                I2C1_ER_IRQHandler
-                0x08001adc                DMA2_Stream6_IRQHandler
-                0x08001adc                DMA1_Stream3_IRQHandler
- *fill*         0x08001ade        0x2 
+                0x08001ad8        0x2 startup_stm32f401rctx.o
+                0x08001ad8                RTC_Alarm_IRQHandler
+                0x08001ad8                EXTI2_IRQHandler
+                0x08001ad8                DebugMon_Handler
+                0x08001ad8                SPI4_IRQHandler
+                0x08001ad8                TIM1_CC_IRQHandler
+                0x08001ad8                DMA2_Stream5_IRQHandler
+                0x08001ad8                HardFault_Handler
+                0x08001ad8                DMA1_Stream5_IRQHandler
+                0x08001ad8                PVD_IRQHandler
+                0x08001ad8                SDIO_IRQHandler
+                0x08001ad8                TAMP_STAMP_IRQHandler
+                0x08001ad8                PendSV_Handler
+                0x08001ad8                NMI_Handler
+                0x08001ad8                EXTI3_IRQHandler
+                0x08001ad8                TIM1_UP_TIM10_IRQHandler
+                0x08001ad8                I2C3_ER_IRQHandler
+                0x08001ad8                EXTI0_IRQHandler
+                0x08001ad8                I2C2_EV_IRQHandler
+                0x08001ad8                DMA1_Stream2_IRQHandler
+                0x08001ad8                FPU_IRQHandler
+                0x08001ad8                UsageFault_Handler
+                0x08001ad8                DMA2_Stream2_IRQHandler
+                0x08001ad8                SPI1_IRQHandler
+                0x08001ad8                TIM1_BRK_TIM9_IRQHandler
+                0x08001ad8                DMA2_Stream3_IRQHandler
+                0x08001ad8                USART6_IRQHandler
+                0x08001ad8                DMA2_Stream0_IRQHandler
+                0x08001ad8                TIM4_IRQHandler
+                0x08001ad8                I2C1_EV_IRQHandler
+                0x08001ad8                DMA1_Stream6_IRQHandler
+                0x08001ad8                DMA1_Stream1_IRQHandler
+                0x08001ad8                TIM3_IRQHandler
+                0x08001ad8                RCC_IRQHandler
+                0x08001ad8                Default_Handler
+                0x08001ad8                EXTI15_10_IRQHandler
+                0x08001ad8                ADC_IRQHandler
+                0x08001ad8                DMA1_Stream7_IRQHandler
+                0x08001ad8                TIM5_IRQHandler
+                0x08001ad8                DMA2_Stream7_IRQHandler
+                0x08001ad8                I2C3_EV_IRQHandler
+                0x08001ad8                EXTI9_5_IRQHandler
+                0x08001ad8                RTC_WKUP_IRQHandler
+                0x08001ad8                SPI2_IRQHandler
+                0x08001ad8                MemManage_Handler
+                0x08001ad8                DMA1_Stream0_IRQHandler
+                0x08001ad8                SVC_Handler
+                0x08001ad8                EXTI4_IRQHandler
+                0x08001ad8                WWDG_IRQHandler
+                0x08001ad8                TIM2_IRQHandler
+                0x08001ad8                OTG_FS_WKUP_IRQHandler
+                0x08001ad8                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08001ad8                EXTI1_IRQHandler
+                0x08001ad8                USART2_IRQHandler
+                0x08001ad8                I2C2_ER_IRQHandler
+                0x08001ad8                DMA2_Stream1_IRQHandler
+                0x08001ad8                FLASH_IRQHandler
+                0x08001ad8                DMA2_Stream4_IRQHandler
+                0x08001ad8                BusFault_Handler
+                0x08001ad8                OTG_FS_IRQHandler
+                0x08001ad8                SPI3_IRQHandler
+                0x08001ad8                DMA1_Stream4_IRQHandler
+                0x08001ad8                I2C1_ER_IRQHandler
+                0x08001ad8                DMA2_Stream6_IRQHandler
+                0x08001ad8                DMA1_Stream3_IRQHandler
+ *fill*         0x08001ada        0x2 
  .text.stdio_exit_handler
-                0x08001ae0       0x18 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-findfp.o)
+                0x08001adc       0x18 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-findfp.o)
  .text.cleanup_stdio
-                0x08001af8       0x40 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-findfp.o)
+                0x08001af4       0x40 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-findfp.o)
  .text.global_stdio_init.part.0
-                0x08001b38       0xf0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-findfp.o)
- .text.__sinit  0x08001c28       0x3c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-findfp.o)
-                0x08001c28                __sinit
+                0x08001b34       0xf0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-findfp.o)
+ .text.__sinit  0x08001c24       0x3c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-findfp.o)
+                0x08001c24                __sinit
  .text.__sfp_lock_acquire
-                0x08001c64        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-findfp.o)
-                0x08001c64                __sfp_lock_acquire
+                0x08001c60        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-findfp.o)
+                0x08001c60                __sfp_lock_acquire
  .text.__sfp_lock_release
-                0x08001c70        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-findfp.o)
-                0x08001c70                __sfp_lock_release
+                0x08001c6c        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-findfp.o)
+                0x08001c6c                __sfp_lock_release
  .text._fwalk_sglue
-                0x08001c7c       0x44 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-fwalk.o)
-                0x08001c7c                _fwalk_sglue
- .text.sprintf  0x08001cc0       0x44 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-sprintf.o)
-                0x08001cc0                sprintf
- .text.__sread  0x08001d04       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-stdio.o)
-                0x08001d04                __sread
+                0x08001c78       0x44 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-fwalk.o)
+                0x08001c78                _fwalk_sglue
+ .text.sprintf  0x08001cbc       0x44 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-sprintf.o)
+                0x08001cbc                sprintf
+ .text.__sread  0x08001d00       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-stdio.o)
+                0x08001d00                __sread
  .text.__swrite
-                0x08001d28       0x40 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-stdio.o)
-                0x08001d28                __swrite
- .text.__sseek  0x08001d68       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-stdio.o)
-                0x08001d68                __sseek
+                0x08001d24       0x40 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-stdio.o)
+                0x08001d24                __swrite
+ .text.__sseek  0x08001d64       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-stdio.o)
+                0x08001d64                __sseek
  .text.__sclose
-                0x08001d8c        0x8 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-stdio.o)
-                0x08001d8c                __sclose
- .text.memset   0x08001d94       0x9c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-memset.o)
-                0x08001d94                memset
+                0x08001d88        0x8 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-stdio.o)
+                0x08001d88                __sclose
+ .text.memset   0x08001d90       0x9c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-memset.o)
+                0x08001d90                memset
  .text._close_r
-                0x08001e30       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-closer.o)
-                0x08001e30                _close_r
+                0x08001e2c       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-closer.o)
+                0x08001e2c                _close_r
  .text._lseek_r
-                0x08001e54       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-lseekr.o)
-                0x08001e54                _lseek_r
- .text._read_r  0x08001e80       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-readr.o)
-                0x08001e80                _read_r
+                0x08001e50       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-lseekr.o)
+                0x08001e50                _lseek_r
+ .text._read_r  0x08001e7c       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-readr.o)
+                0x08001e7c                _read_r
  .text._write_r
-                0x08001eac       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-writer.o)
-                0x08001eac                _write_r
+                0x08001ea8       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-writer.o)
+                0x08001ea8                _write_r
  .text.__libc_init_array
-                0x08001ed8       0x50 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-init.o)
-                0x08001ed8                __libc_init_array
+                0x08001ed4       0x50 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-init.o)
+                0x08001ed4                __libc_init_array
  .text.__retarget_lock_init_recursive
-                0x08001f28        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-lock.o)
-                0x08001f28                __retarget_lock_init_recursive
+                0x08001f24        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-lock.o)
+                0x08001f24                __retarget_lock_init_recursive
  .text.__retarget_lock_close_recursive
-                0x08001f2c        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-lock.o)
-                0x08001f2c                __retarget_lock_close_recursive
+                0x08001f28        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-lock.o)
+                0x08001f28                __retarget_lock_close_recursive
  .text.__retarget_lock_acquire_recursive
-                0x08001f30        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-lock.o)
-                0x08001f30                __retarget_lock_acquire_recursive
+                0x08001f2c        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-lock.o)
+                0x08001f2c                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x08001f34        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-lock.o)
-                0x08001f34                __retarget_lock_release_recursive
+                0x08001f30        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-lock.o)
+                0x08001f30                __retarget_lock_release_recursive
  .text.startup.register_fini
-                0x08001f38       0x14 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-__call_atexit.o)
- .text.atexit   0x08001f4c        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-atexit.o)
-                0x08001f4c                atexit
+                0x08001f34       0x14 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-__call_atexit.o)
+ .text.atexit   0x08001f48        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-atexit.o)
+                0x08001f48                atexit
  .text._malloc_trim_r
-                0x08001f58       0xb8 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-freer.o)
-                0x08001f58                _malloc_trim_r
- .text._free_r  0x08002010      0x1f0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-freer.o)
-                0x08002010                _free_r
+                0x08001f54       0xb8 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-freer.o)
+                0x08001f54                _malloc_trim_r
+ .text._free_r  0x0800200c      0x1f0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-freer.o)
+                0x0800200c                _free_r
  .text._malloc_r
-                0x08002200      0x598 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-mallocr.o)
-                0x08002200                _malloc_r
+                0x080021fc      0x598 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-mallocr.o)
+                0x080021fc                _malloc_r
  .text.__malloc_lock
-                0x08002798        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-mlock.o)
-                0x08002798                __malloc_lock
+                0x08002794        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-mlock.o)
+                0x08002794                __malloc_lock
  .text.__malloc_unlock
-                0x080027a4        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-mlock.o)
-                0x080027a4                __malloc_unlock
+                0x080027a0        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-mlock.o)
+                0x080027a0                __malloc_unlock
  .text._svfprintf_r
-                0x080027b0     0x2200 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-svfprintf.o)
-                0x080027b0                _svfprintf_r
+                0x080027ac     0x2200 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-svfprintf.o)
+                0x080027ac                _svfprintf_r
  .text.__ssprint_r
-                0x080049b0       0x58 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-ssprint_r.o)
-                0x080049b0                __ssprint_r
+                0x080049ac       0x58 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-ssprint_r.o)
+                0x080049ac                __ssprint_r
  .text._fclose_r
-                0x08004a08       0xc0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-fclose.o)
-                0x08004a08                _fclose_r
+                0x08004a04       0xc0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-fclose.o)
+                0x08004a04                _fclose_r
  .text.__sflush_r
-                0x08004ac8      0x128 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-fflush.o)
-                0x08004ac8                __sflush_r
+                0x08004ac4      0x128 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-fflush.o)
+                0x08004ac4                __sflush_r
  .text._fflush_r
-                0x08004bf0       0x54 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-fflush.o)
-                0x08004bf0                _fflush_r
- .text.strncpy  0x08004c44       0x68 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-strncpy.o)
-                0x08004c44                strncpy
+                0x08004bec       0x54 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-fflush.o)
+                0x08004bec                _fflush_r
+ .text.strncpy  0x08004c40       0x68 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-strncpy.o)
+                0x08004c40                strncpy
  .text.__locale_mb_cur_max
-                0x08004cac        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-locale.o)
-                0x08004cac                __locale_mb_cur_max
+                0x08004ca8        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-locale.o)
+                0x08004ca8                __locale_mb_cur_max
  .text._localeconv_r
-                0x08004cb8        0x8 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-localeconv.o)
-                0x08004cb8                _localeconv_r
- .text._sbrk_r  0x08004cc0       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-sbrkr.o)
-                0x08004cc0                _sbrk_r
+                0x08004cb4        0x8 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-localeconv.o)
+                0x08004cb4                _localeconv_r
+ .text._sbrk_r  0x08004cbc       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-sbrkr.o)
+                0x08004cbc                _sbrk_r
  .text.__libc_fini_array
-                0x08004ce4       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-fini.o)
-                0x08004ce4                __libc_fini_array
- .text.sysconf  0x08004d0c       0x1c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-sysconf.o)
-                0x08004d0c                sysconf
- .text.frexp    0x08004d28       0x6c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libm_a-s_frexp.o)
-                0x08004d28                frexp
+                0x08004ce0       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-fini.o)
+                0x08004ce0                __libc_fini_array
+ .text.sysconf  0x08004d08       0x1c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-sysconf.o)
+                0x08004d08                sysconf
+ .text.frexp    0x08004d24       0x6c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libm_a-s_frexp.o)
+                0x08004d24                frexp
  .text.__register_exitproc
-                0x08004d94       0x80 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-__atexit.o)
-                0x08004d94                __register_exitproc
- .text.quorem   0x08004e14      0x12c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-dtoa.o)
+                0x08004d90       0x80 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-__atexit.o)
+                0x08004d90                __register_exitproc
+ .text.quorem   0x08004e10      0x12c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-dtoa.o)
+ *fill*         0x08004f3c        0x4 
  .text._dtoa_r  0x08004f40     0x1040 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a(libc_a-dtoa.o)
                 0x08004f40                _dtoa_r
  .text.__ascii_mbtowc
@@ -2580,17 +2581,17 @@ LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib
  .debug_macro   0x0000f756      0x274 build/uart.o
  .debug_macro   0x0000f9ca       0xe0 build/system_stm32f4xx.o
 
-.debug_line     0x00000000     0x3029
+.debug_line     0x00000000     0x3026
  .debug_line    0x00000000      0x4a1 build/crc16.o
- .debug_line    0x000004a1      0x554 build/main.o
- .debug_line    0x000009f5      0x66e build/modbus.o
- .debug_line    0x00001063      0x5a4 build/rcc.o
- .debug_line    0x00001607      0x518 build/ring_buffer.o
- .debug_line    0x00001b1f      0x5bd build/rtc.o
- .debug_line    0x000020dc      0x546 build/timer.o
- .debug_line    0x00002622      0x5e7 build/uart.o
- .debug_line    0x00002c09      0x3a6 build/system_stm32f4xx.o
- .debug_line    0x00002faf       0x7a startup_stm32f401rctx.o
+ .debug_line    0x000004a1      0x551 build/main.o
+ .debug_line    0x000009f2      0x66e build/modbus.o
+ .debug_line    0x00001060      0x5a4 build/rcc.o
+ .debug_line    0x00001604      0x518 build/ring_buffer.o
+ .debug_line    0x00001b1c      0x5bd build/rtc.o
+ .debug_line    0x000020d9      0x546 build/timer.o
+ .debug_line    0x0000261f      0x5e7 build/uart.o
+ .debug_line    0x00002c06      0x3a6 build/system_stm32f4xx.o
+ .debug_line    0x00002fac       0x7a startup_stm32f401rctx.o
 
 .debug_str      0x00000000    0x53eda
  .debug_str     0x00000000    0x53eda build/crc16.o

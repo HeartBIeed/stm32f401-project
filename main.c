@@ -5,9 +5,9 @@
 modbus_rtu modbus1;
 
 static uint16_t holding_registers[HOLDING_REGISTERS_COUNT] = {
-    100U,
-    200U,
-    300U,
+    555,
+    777,
+    999,
     400U,
     500U,
     600U,
@@ -63,8 +63,6 @@ modbus_init(&modbus1, 1U); // инит адрес 1
 
 
  while(1){
-	USART1_send_string("start \r\n"); 
-
 
     modbus_poll(&modbus1);
 

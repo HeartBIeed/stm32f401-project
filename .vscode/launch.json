@@ -36,6 +36,14 @@
             ],
             "svdFile": "${workspaceFolder}/.vscode/STM32F401.svd",
             "preLaunchTask": "Build STM32 firmware",
+            "overrideResetCommands": [
+                "shell C:/mingw64/bin/mingw32-make.exe",
+                "monitor reset halt",
+                "monitor flash write_image erase ${workspaceFolder}/build/main.elf",
+                "monitor verify_image ${workspaceFolder}/build/main.elf",
+                "symbol-file ${workspaceFolder}/build/main.elf",
+                "monitor reset halt"
+            ],
             "runToEntryPoint": "main"
         }
 
