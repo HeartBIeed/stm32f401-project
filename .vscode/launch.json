@@ -35,9 +35,6 @@
                 "target/stm32f4x.cfg"
             ],
             "svdFile": "${workspaceFolder}/.vscode/STM32F401.svd",
-            "preRestartCommands": [
-                "load"
-            ],
             "preLaunchTask": "Build STM32 firmware",
             "runToEntryPoint": "main"
         }

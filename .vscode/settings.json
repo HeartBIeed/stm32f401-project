@@ -3,5 +3,6 @@
         "stm32f4xx.h": "c",
         "stm32f401xc.h": "c",
         "uart.h": "c"
-    }
+    },
+    "cortex-debug.variableUseNaturalFormat": false
 }

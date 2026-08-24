@@ -20,4 +20,9 @@
 //#include "st7735.h"
 #include "rtc.h"
 
+
+#include "modbus.h"
+#include "crc16.h"
+
+
 #endif /* MAIN_H_ */

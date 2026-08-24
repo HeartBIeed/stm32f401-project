@@ -6,7 +6,9 @@
 
 void USART1_init(uint16_t baudrate);
 uint8_t USART1_recieve_byte();
+void USART1_send_byte(uint8_t tx_data);
 void USART1_send_string(char *str);
+int USART1_read_byte(uint8_t *byte); 
 
 
 
