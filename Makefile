@@ -25,8 +25,7 @@ all: build/$(TARGET).hex
 build/%.o: %.c | build
 	$(CC) $(CFLAGS) -c -O0 -ffunction-sections -fdata-sections -fstack-usage -o $@ $<
 
-$(SYS_OBJ): $(SYS_SRC)
-	mkdir -p $(dir $@)
+$(SYS_OBJ): $(SYS_SRC) | build
 	$(CC) $(CFLAGS) -c $< -o $@
 
 $(STARTUP).o: $(ST_INCL)/$(STARTUP).s | build
@@ -38,12 +37,10 @@ build/$(TARGET).elf: $(OBJ) $(SYS_OBJ) $(STARTUP).o $(LOADER)
 	-Wl,--gc-sections -static -mfloat-abi=soft -mthumb \
 	-Wl,--start-group -lc -lm -Wl,--end-group
 
-
-	@/bin/echo -e "\033[1;36m"
-
 	arm-none-eabi-size $@
-
-	@/bin/echo -e "\033[0m"
 
 build/$(TARGET).hex: build/$(TARGET).elf
 	$(OBJCOPY) -O ihex $< $@
+
+build:
+	if not exist build mkdir build
