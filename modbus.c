@@ -1,51 +1,100 @@
 #include "modbus.h"
 
 
-void modbus_init(modbus_rtu *modbus, uint8_t address){
+void modbus_init(modbus_rtu *modbus, uint8_t slave_address){
 
-    modbus->address = address;
-    modbus->rx_length = 0U;
-    modbus->last_byte_time = 0U;
-    modbus->frame_timeout = 4U; // настроить таймаут одного кадра
+    modbus->address = slave_address;
+    modbus->rx_length = 0;
+    modbus->last_byte_time = 0;
+    modbus->frame_timeout = 4; // настроить таймаут одного кадра
     modbus->rx_state = MODBUS_RX_IDLE; // стартовое состояние
 
+    registers_init();
 }
 
 
-void modbus_poll(modbus_rtu *modbus){ // передаем экхемпляр структуры
+void modbus_poll(modbus_rtu *modbus){ // передаем экземпляр структуры
 
     uint8_t byte;
     uint32_t current_time; // сюда пишем текушие мс по систику
 
-    if (modbus->rx_state == MODBUS_RX_FRAME_READY) {
-        return; // выходим при состоянии  готов
-    }
-
-    while (USART1_read_byte(&byte)) // пока буфер не пуст 
+    switch (modbus->rx_state)
     {
-        if (modbus->rx_length < MODBUS_MAX_FRAME_SIZE) // если буфер не переполнен
-        {
-            modbus->rx_frame[modbus->rx_length] = byte; // пишем в кадр байт
-            modbus->rx_length++; //инкремент позиции байтов
+        case MODBUS_RX_IDLE:
+            
+            if (USART1_read_byte(&byte)){
+                modbus->rx_frame[0] = byte; // пишем в структуру 1 байт
+                modbus->rx_length = 1; 
+                modbus->last_byte_time = get_mills(); // пишем в ЛБТ время
+                modbus->rx_state = MODBUS_RX_RECEIVING;
+            }
 
-            modbus->last_byte_time = get_mills(); // пишем в ЛБТ время
-            modbus->rx_state = MODBUS_RX_RECEIVING;
-        } else {
-        // если буфер переполнен
-        modbus->rx_length = 0U;
-        modbus->rx_state = MODBUS_RX_IDLE;// Кадр не помещается — сбрасываем приём.
-        }
-    }
+        break; 
 
-    if (modbus->rx_state == MODBUS_RX_RECEIVING) {// проверка конца кадра
-        current_time = get_mills(); // обновляем вреня начала подсчета таймаута
+        case MODBUS_RX_RECEIVING:
 
-        if ((current_time - modbus->last_byte_time) >= modbus->frame_timeout) {
-        // если текщие мс - время последнего кадра >= таймауту примерно 3,5 мс 
-            modbus->rx_state = MODBUS_RX_FRAME_READY; // готов кадр
-        }
+            while (USART1_read_byte(&byte)) // пока буфер не пуст 
+            {
+                if (modbus->rx_length < MODBUS_MAX_FRAME_SIZE) // если буфер не переполнен
+                {
+                    modbus->rx_frame[modbus->rx_length] = byte; // пишем в структуру байт
+                    modbus->rx_length++; //инкремент позиции байтов
+
+                    modbus->last_byte_time = get_mills(); // пишем в ЛБТ время
+                    modbus->rx_state = MODBUS_RX_RECEIVING;
+
+                } else { // если буфер переполнен
+
+                modbus->rx_length = 0;
+                modbus->rx_state = MODBUS_RX_IDLE;// Кадр не помещается — сбрасываем приём.
+                }
+            } // end while
+
+            current_time = get_mills();
+
+            if ((current_time - modbus->last_byte_time) >= modbus->frame_timeout) {
+                modbus->rx_state = MODBUS_RX_FRAME_READY; // кадр приняли
+            }
+
+        break;
+
+        case MODBUS_RX_FRAME_READY:
+
+            // обработка функций 
+            if (modbus_frame_check(modbus)) {
+                    
+                    switch (modbus->rx_frame[1]) // берем № функции
+                    {
+
+                    case MODBUS_FC_READ_HOLDING_REGISTERS:
+
+                        if (modbus_handle_read_holding(modbus,holding_registers,HOLDING_REGISTERS_COUNT)) {
+
+                            for (uint16_t i = 0; i < modbus->tx_length; i++) {
+
+                                USART1_send_byte(modbus->tx_frame[i]); // отправляем сформированныф эхо фрейм
+                            }
+                        }
+
+                    modbus->rx_length = 0;
+                    modbus->rx_state = MODBUS_RX_IDLE;
+
+                    break; //MODBUS_FC_READ_HOLDING_REGISTERS
+                        
+                    default:
+                        break;
+                    }
+            }
+        
+        modbus->rx_length = 0;
+        modbus->rx_state = MODBUS_RX_IDLE;
+        break; // MODBUS_RX_FRAME_READY
+
+    default:
+        break;
     }
 }
+
 
 int modbus_frame_check(modbus_rtu *modbus){ // проверка кадра по срс16
 
@@ -56,33 +105,22 @@ int modbus_frame_check(modbus_rtu *modbus){ // проверка кадра по 
         return 0;
     }
 
-    if (modbus->rx_length < 4U) { // кадр маленький
+    if (modbus->rx_length < 4) { // кадр маленький
         return 0;
     }
 
-    if ((modbus->rx_frame[0] != modbus->address) &&
-        (modbus->rx_frame[0] != 0U)) { //если адрес 0 — бродкаст
-        return 0; 
-    }
+    received_crc = // собираем срс байты 
+        (uint16_t)modbus->rx_frame[modbus->rx_length - 2] |
+        ((uint16_t)modbus->rx_frame[modbus->rx_length - 1] << 8);
 
 
-received_crc = // собираем срс байты 
-    (uint16_t)modbus->rx_frame[modbus->rx_length - 2U] |
-    ((uint16_t)modbus->rx_frame[modbus->rx_length - 1U] << 8U);
-
-
-    calculated_crc = modbus_crc16(modbus->rx_frame,modbus->rx_length - 2U);
+    calculated_crc = modbus_crc16(modbus->rx_frame,modbus->rx_length - 2);
 // вычисляем срс кадра без последних 2 байтов
     if (received_crc != calculated_crc) return 0; // если не совпали
 
     return 1;
 }
 
-void modbus_frame_reset(modbus_rtu *modbus){
-
-    modbus->rx_length = 0U;
-    modbus->rx_state = MODBUS_RX_IDLE;
-}
 
 int modbus_handle_read_holding(modbus_rtu *modbus, const uint16_t *registers, uint16_t registers_count){
 // экземпляр структуры, массив регистров, количество
@@ -94,11 +132,11 @@ int modbus_handle_read_holding(modbus_rtu *modbus, const uint16_t *registers, ui
 
     if (registers == NULL) return 0;
 
-    if (modbus->rx_length != 8U) { //0x03 всегда содержит 8 байтов
+    if (modbus->rx_length != 8) { //0x03 всегда содержит 8 байтов
         return 0;
     }
 
-    if (modbus->rx_frame[1] != 0x03U) {
+    if (modbus->rx_frame[1] != 0x03) {
         return 0; // если функция не 3
     }
 
@@ -106,12 +144,12 @@ int modbus_handle_read_holding(modbus_rtu *modbus, const uint16_t *registers, ui
         return 0;
     }
 
-    start_address =((uint16_t)modbus->rx_frame[2] << 8U) | (uint16_t)modbus->rx_frame[3];
+    start_address =((uint16_t)modbus->rx_frame[2] << 8) | (uint16_t)modbus->rx_frame[3];
     // берем адрес со 2 и 3 байта
-    quantity =((uint16_t)modbus->rx_frame[4] << 8U) | (uint16_t)modbus->rx_frame[5];
+    quantity =((uint16_t)modbus->rx_frame[4] << 8) | (uint16_t)modbus->rx_frame[5];
     // берем количество запрашиваемых регистров
 
-    if ((quantity == 0U) || (quantity > 125U)) {
+    if ((quantity == 0) || (quantity > 125)) {
         return 0; // в количестве от 1 до 125 иначе ошибка
     }
 
@@ -119,12 +157,12 @@ int modbus_handle_read_holding(modbus_rtu *modbus, const uint16_t *registers, ui
         return 0; // проверка выхода за кол-во регистров
     }
 
-    // формируем ответный эхо кадр
+    // формируем ответный кадр
     modbus->tx_frame[0] = modbus->address;
-    modbus->tx_frame[1] = 0x03U;
-    modbus->tx_frame[2] = (uint8_t)(quantity * 2U); //количество байтов данных * 2 - стардарт ответа
+    modbus->tx_frame[1] = 0x03;
+    modbus->tx_frame[2] = (uint8_t)(quantity * 2); //количество байтов данных * 2 - стардарт ответа
 
-    tx_index = 3U; // 3 позиции заполненны теперь след позиции
+    tx_index = 3; // 3 позиции заполненны теперь след позиции
 
     for (uint16_t i = 0; i < quantity; i++) {
 
@@ -134,10 +172,10 @@ int modbus_handle_read_holding(modbus_rtu *modbus, const uint16_t *registers, ui
 // значения регистров от старт адреса
 
         modbus->tx_frame[tx_index++] =
-            (uint8_t)(value >> 8U);
+            (uint8_t)(value >> 8);
 
         modbus->tx_frame[tx_index++] =
-            (uint8_t)(value & 0xFFU);
+            (uint8_t)(value & 0xFF);
     }
 
     crc = modbus_crc16(modbus->tx_frame, tx_index);
@@ -145,13 +183,31 @@ int modbus_handle_read_holding(modbus_rtu *modbus, const uint16_t *registers, ui
  // срс передаётся младшим байтом вперёд.
 
     modbus->tx_frame[tx_index++] =
-        (uint8_t)(crc & 0xFFU);
+        (uint8_t)(crc & 0xFF);
 
     modbus->tx_frame[tx_index++] =
-        (uint8_t)(crc >> 8U);
+        (uint8_t)(crc >> 8);
 
     modbus->tx_length = tx_index;
 // длина сформ кадра в  modbus->tx_length
     return 1;
 
 }
+
+
+
+
+
+/*
+
+rx_frame[0] == 0x01  // адрес Slave
+rx_frame[1] == 0x03  // Read Holding Registers
+rx_frame[2] == 0x00  // старший байт начального адреса
+rx_frame[3] == 0x00  // младший байт начального адреса
+rx_frame[4] == 0x00  // старший байт количества
+rx_frame[5] == 0x0A  // прочитать 10 регистровЫ
+
+*/
+
+
+
