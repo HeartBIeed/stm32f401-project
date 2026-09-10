@@ -40,6 +40,7 @@ void modbus_init(modbus_rtu *modbus, uint8_t slave_address);
 void modbus_poll(modbus_rtu *modbus);
 int modbus_frame_check(modbus_rtu *modbus);
 int modbus_handle_read_holding(modbus_rtu *modbus, const uint16_t *registers, uint16_t registers_count);
+int modbus_handle_write_single_hldreg(modbus_rtu *modbus, const uint16_t *registers, uint16_t registers_count);
 
 
 
