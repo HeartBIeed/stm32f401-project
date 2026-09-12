@@ -1,49 +1,43 @@
-TARGET    = main
-MCPU      = cortex-m4
-STARTUP   = startup_stm32f401rctx
-LOADER    = STM32F401RCTX_FLASH.ld
-OBJCOPY   = arm-none-eabi-objcopy
-CC        = arm-none-eabi-gcc
+TARGET = main
+ARCH_FLAGS = -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard
+STARTUP = startup_stm32f401rctx
+LOADER = STM32F401RCTX_FLASH.ld
+OBJCOPY = arm-none-eabi-objcopy
+CC = arm-none-eabi-gcc
 
-INCLUDE1  = Drivers/CMSIS/Device/ST/STM32F4xx/Include
-INCLUDE2  = Drivers/CMSIS/Include
-ST_INCL   = Core/Startup
-INC_H     = inc
+OUTPUT = Build
+SOURCE_DIRS = Core Periph App Drivers
+INCLUDES = $(SOURCE_DIRS) Drivers/CMSIS/Include
+SRC := $(foreach dir,$(SOURCE_DIRS),$(wildcard $(dir)/*.c))
+OBJ := $(addprefix $(OUTPUT)/,$(notdir $(SRC:.c=.o)))
 
-SRC       := $(wildcard *.c)
-OBJ       := $(patsubst %.c,build/%.o,$(SRC))
+STARTUP_OBJ = $(OUTPUT)/$(STARTUP).o
 
-SYS_SRC   = Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c
-SYS_OBJ   = build/system_stm32f4xx.o
+CFLAGS = $(ARCH_FLAGS) -g3 --specs=nano.specs -Wall \
+ $(addprefix -I,$(INCLUDES)) -DSTM32F401xC -std=gnu11
 
-CFLAGS = -mcpu=$(MCPU) -g3 --specs=nano.specs -mthumb -mfloat-abi=soft -Wall \
- -I$(INC_H) -I$(INCLUDE1) -I$(INCLUDE2) -DSTM32F401xC -std=gnu11
+.PHONY: all
+all: $(OUTPUT)/$(TARGET).hex
 
-all: build/$(TARGET).hex
+$(foreach src,$(SRC),$(eval $(OUTPUT)/$(notdir $(src:.c=.o)): $(src)))
 
+$(OBJ): Makefile
+	$(CC) $(CFLAGS) -MMD -MP -c -O0 -ffunction-sections -fdata-sections -fstack-usage -o $@ $(filter %.c,$^)
 
-build/%.o: %.c | build
-	$(CC) $(CFLAGS) -c -O0 -ffunction-sections -fdata-sections -fstack-usage -o $@ $<
-
-$(SYS_OBJ): $(SYS_SRC)
-	mkdir -p $(dir $@)
-	$(CC) $(CFLAGS) -c $< -o $@
-
-$(STARTUP).o: $(ST_INCL)/$(STARTUP).s | build
+$(STARTUP_OBJ): $(STARTUP).s Makefile
 	$(CC) $(CFLAGS) -c -x assembler-with-cpp -o $@ $<
 
-build/$(TARGET).elf: $(OBJ) $(SYS_OBJ) $(STARTUP).o $(LOADER)
-	$(CC) -o $@ $(OBJ) $(SYS_OBJ) $(STARTUP).o -mcpu=$(MCPU) \
-	--specs=nosys.specs -T"$(LOADER)" -Wl,-Map=build/$(TARGET).map \
-	-Wl,--gc-sections -static -mfloat-abi=soft -mthumb \
+$(OUTPUT)/$(TARGET).elf: $(OBJ) $(STARTUP_OBJ) $(LOADER) Makefile
+	$(CC) -o $@ $(OBJ) $(STARTUP_OBJ) $(ARCH_FLAGS) \
+	--specs=nosys.specs -T"$(LOADER)" -Wl,-Map=$(OUTPUT)/$(TARGET).map \
+	-Wl,--gc-sections -static \
 	-Wl,--start-group -lc -lm -Wl,--end-group
 
-
 	@/bin/echo -e "\033[1;36m"
-
 	arm-none-eabi-size $@
-
 	@/bin/echo -e "\033[0m"
 
-build/$(TARGET).hex: build/$(TARGET).elf
+$(OUTPUT)/$(TARGET).hex: $(OUTPUT)/$(TARGET).elf
 	$(OBJCOPY) -O ihex $< $@
+
+-include $(OBJ:.o=.d)

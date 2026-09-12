@@ -1,0 +1,137 @@
+#include "i2c.h"
+
+uint32_t timeout;
+
+void I2C_init(){
+// PB6 - SCL
+// PB7 - SDA
+
+	RCC->AHB1ENR |= RCC_AHB1ENR_GPIOBEN; // GPIOB
+	RCC->APB1ENR |= RCC_APB1ENR_I2C1EN; // APB1 I2C1
+
+//MODER 0b10 - 0x02 alt func - 2 bit
+	GPIOB->MODER &= ~( 0x3 << (PB6 *2)); // PB6  clear
+	GPIOB->MODER |= ( 0x2 << (PB6 *2)); // PB6 set TX
+
+	GPIOB->MODER &= ~( 0x3 << (PB7 *2)); // PB7  clear
+	GPIOB->MODER |= ( 0x2 << (PB7 *2)); // PB7 set RX
+
+//OTYPER 1- Open Drain  - 1 bit 
+	GPIOB->OTYPER |= ((1<<PB6 )|(1<<PB7 )); 
+
+//OSPEEDR 10 high 2 - bit
+	GPIOB->OSPEEDR |= ((0x2<<(PB6 *2))|(0x2<<(PB7 *2))); 
+
+	GPIOB->AFR[0] &= ~((0xF<<(PB6 *4))|(0xF<<(PB7 *4))); // clear
+	GPIOB->AFR[0] |= ((0x4<<(PB6 *4))|(0x4<<(PB7 *4)));  //0b0100/ 4 bit 
+//AFR 0b0100 I2C enable mode
+
+	I2C1->CR1 = 0;
+	I2C1->CR2 = 0;
+//	I2C1->CR1 |= (1<<2); // RX interrupt enable
+//	I2C1->CR1 |= (1<<1); // TX interrupt enable
+	
+	I2C1->TIMINGR = (0x1<<28)|(0x4<<20)|(0x2<<16)|(0x0F<<8)|(0x13<<0);
+// PRESC | SCLDEL | SDADEL | SCLH | SCLL 
+//table 75 from RM
+//setup for fcpu 8MHz / i2c clk 100 kHz
+
+	I2C1->CR1 |= I2C_CR1_PE; // PE
+}
+
+
+void I2C_writeByte(int addr,uint8_t* data,int nbytes){
+
+	I2C1->CR2 = 0; 
+	
+	I2C1->CR2 |= (nbytes<< 16); //nbytes
+	I2C1->CR2 |= (1 << 25); //autoend
+	I2C1->CR2 |= (addr << 1); // set slave address
+	I2C1->CR1 |= I2C_CR1_START; //start 
+
+	while (!(I2C1->SR1 & I2C_SR1_TXE)); //txis 1 - txdr empty
+
+		for (int i = 0; i < nbytes; ++i)
+		{
+			while (!(I2C1->SR1 & I2C_SR1_TXE)); //wait empty tx buffer
+			I2C1->DR = data[i];// send 
+
+		}
+
+	while (!(I2C1->SR1 & I2C_SR1_STOPF)); //wait stop
+	I2C1->ICR = I2C_SR1_STOPF; //clear 
+}
+
+void I2C_readByte(int addr,uint8_t* data,int len){
+
+		I2C1->CR2 = 0; 
+		
+		I2C1->CR2 |= (1 << 10); // 1 read
+		I2C1->CR2 |= (len<< 16); //len
+		I2C1->CR2 |= (1 << 25); //autoend
+		I2C1->CR2 |= (addr << 1); // set slave address
+		I2C1->CR1 |= I2C_CR1_START; //start 
+
+
+		for (int i = 0; i < len; ++i)
+			{				
+				while (!(I2C1->SR1 & I2C_SR1_RXNE)); //wait transmit
+				data[i] = I2C1->DR; // read 
+			}
+			
+	while (!(I2C1->CCR & I2C_SR1_STOPF)); //wait stop
+	I2C1->CCR = I2C_SR1_STOPF; //clear 
+}
+
+int I2C_checkAddress(int addr){
+	//clear errors
+	I2C1->CCR = (1<<4)|(1<<5)|(1<<8)|(1<<9);
+
+			I2C1->CR2 = 0; 
+			
+			I2C1->CR2 |= (0 << 16); //nbytes
+			I2C1->CR2 |= (1 << 25); //autoend
+			I2C1->CR2 |= (addr << 1); // set slave address
+			I2C1->CR1 |= I2C_CR1_START; //start 
+
+	timeout = TIMEOUT;
+
+	while (!(I2C1->CCR & (I2C_CR1_ACK | I2C_CR1_STOP | I2C_ISR_TC))) //wait NACK STOPF TC
+		{
+			if (--timeout == 0) return 0; //none ack
+		}
+
+	if (I2C1->CCR & I2C_ISR_NACKF) // if nack
+		{
+		   I2C1->CCR = I2C_ICR_NACKCF | I2C_CR1_STOP; //clear flags
+		   return 0; // no device
+		}
+
+
+	 timeout = TIMEOUT;
+	while (!(I2C1->CCR & I2C_SR1_STOPF )) // wait STOPF 
+		{
+			if (--timeout == 0) break;
+		}
+
+	I2C1->CCR = I2C_CR1_STOP; //clear stopf
+	return 1; 
+}
+
+
+void I2C_scan(){
+
+	int addr;
+	char data[32];
+
+	for (addr = 0x08; addr < 0x78; addr++)
+	{
+		if (I2C_checkAddress(addr)) 
+		{
+			sprintf(data,"I2C get: 0x%02X \r\n",addr); 
+			USART1_send_string(data);
+		} else {
+			USART1_send_string("I2C none device \n\r");
+		}
+	}
+}

@@ -1,4 +1,7 @@
-uart.c:7:6:USART1_init	16	static
-uart.c:35:6:USART1_send_byte	16	static
-uart.c:42:9:USART1_recieve_byte	16	static
-uart.c:56:6:USART1_send_string	16	static
+Drivers/CMSIS/Include/core_cm4.h:1684:22:__NVIC_EnableIRQ	16	static
+Drivers/CMSIS/Include/core_cm4.h:1775:22:__NVIC_ClearPendingIRQ	16	static
+Periph/uart.c:10:6:USART1_init	16	static
+Periph/uart.c:45:6:USART1_send_byte	16	static
+Periph/uart.c:52:6:USART1_send_string	16	static
+Periph/uart.c:57:6:USART1_IRQHandler	16	static
+Periph/uart.c:67:5:USART1_read_byte	16	static
