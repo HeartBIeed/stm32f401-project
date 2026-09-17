@@ -48,6 +48,15 @@ modbus_init(&modbus1, 1); // инит адрес устройства 1
 
     modbus_poll(&modbus1);
 
+	if (holding_registers[0] == 1)
+	{
+		hour = holding_registers[1];
+		min = holding_registers[2];
+
+		RTC_setTime(hour,min);
+		
+		holding_registers[0] = 0;
+	}
 
 
   
