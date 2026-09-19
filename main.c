@@ -44,6 +44,9 @@ uint32_t start[3] = {0}; // нулевые стартовые значения
 
 modbus_init(&modbus1, 1); // инит адрес устройства 1
 
+holding_registers[10] = 555;
+holding_registers[11] = 777;
+
  while(1){
 
     modbus_poll(&modbus1);

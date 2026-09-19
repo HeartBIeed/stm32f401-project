@@ -2,9 +2,11 @@
 #define MODBUS_H_
 
 #include "main.h"
-#include "modbus_registers.h"
 
 #define MODBUS_MAX_FRAME_SIZE 256
+#define HOLDING_REGISTERS_COUNT 127
+
+extern uint16_t holding_registers[HOLDING_REGISTERS_COUNT];
 
 typedef enum { // состояния
     MODBUS_RX_IDLE,
@@ -21,6 +23,7 @@ typedef enum {
     MODBUS_FC_WRITE_SINGLE_REGISTER    = 0x06,  // Write Single Register
     MODBUS_FC_WRITE_MULTIPLE_COILS     = 0x0F,  // Write Multiple Coils
     MODBUS_FC_WRITE_MULTIPLE_REGISTERS = 0x10,  // Write Multiple Registers
+    MODBUS_FC_REPORT_SLAVE_ID          = 0x11,  // Report Slave ID.
 } modbus_function;
 
 typedef struct {
@@ -42,6 +45,7 @@ int modbus_frame_check(modbus_rtu *modbus);
 int modbus_handle_read_holding(modbus_rtu *modbus, const uint16_t *registers, uint16_t registers_count);
 int modbus_handle_write_single_hldreg(modbus_rtu *modbus, const uint16_t *registers, uint16_t registers_count);
 int modbus_handle_write_multiple_hldreg(modbus_rtu *modbus, const uint16_t *registers, uint16_t registers_count);
+int modbus_handle_report_slave_id(modbus_rtu *modbus);
 
 
 

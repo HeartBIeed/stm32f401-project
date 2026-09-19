@@ -1,5 +1,6 @@
 #include "modbus.h"
 
+uint16_t holding_registers[HOLDING_REGISTERS_COUNT] = {0};
 
 void modbus_init(modbus_rtu *modbus, uint8_t slave_address){
 
@@ -9,7 +10,6 @@ void modbus_init(modbus_rtu *modbus, uint8_t slave_address){
     modbus->frame_timeout = 4; // настроить таймаут одного кадра
     modbus->rx_state = MODBUS_RX_IDLE; // стартовое состояние
 
-    registers_init();
 }
 
 
@@ -115,6 +115,24 @@ void modbus_poll(modbus_rtu *modbus){ // передаем экземпляр с�
 
                     break; // MODBUS_FC_WRITE_MULTIPLE_REGISTERS  
 
+
+                    break; // MODBUS_FC_REPORT_SLAVE_ID                    
+
+                    case MODBUS_FC_REPORT_SLAVE_ID:
+
+                        if (modbus_handle_report_slave_id(modbus)) {
+
+                            for (uint16_t i = 0; i < modbus->tx_length; i++) {
+                                USART1_send_byte(modbus->tx_frame[i]); // отправляем эхо фрейм
+                            }
+                            
+                        }
+
+                    modbus->rx_length = 0;
+                    modbus->rx_state = MODBUS_RX_IDLE;
+
+                    break; // MODBUS_FC_REPORT_SLAVE_ID  
+
                     default:
                         break;
                     }
@@ -141,6 +159,11 @@ int modbus_frame_check(modbus_rtu *modbus){ // проверка кадра по 
 
     if (modbus->rx_length < 4) { // кадр маленький
         return 0;
+    }
+
+    if (modbus->rx_frame[0] != modbus->address &&
+        modbus->rx_frame[0] != 0) {
+        return 0; // Запрос другому слейву
     }
 
     received_crc = // собираем срс байты 
@@ -226,62 +249,6 @@ int modbus_handle_read_holding(modbus_rtu *modbus, const uint16_t *registers, ui
     return 1;
 }
 
-//16
-int modbus_handle_write_multiple_hldreg(modbus_rtu *modbus, const uint16_t *registers, uint16_t registers_count){
-    
-        uint16_t register_address; // адрес первого регистра
-        uint16_t data;
-        uint16_t crc;
-        uint16_t quantity_write_reg; //количество записываемых регистров
-        uint16_t byte_count; //количество байт
-
-        if (registers == NULL) return 0;
-    
-        if (modbus->rx_frame[1] != MODBUS_FC_WRITE_MULTIPLE_REGISTERS) {
-            return 0; // если функция не 16
-        }
-      
-        register_address =((uint16_t)modbus->rx_frame[2] << 8) |
-                           (uint16_t)modbus->rx_frame[3];
-        // берем адрес
-
-        quantity_write_reg =((uint16_t)modbus->rx_frame[4] << 8) |
-                           (uint16_t)modbus->rx_frame[5];
-        // количество регистров
-
-        byte_count = ((uint16_t)modbus->rx_frame[6]); 
-
-        for (uint8_t i = 7; i < (quantity_write_reg + 7); i++)
-        {
-            data =((uint16_t)modbus->rx_frame[i] << 8) |
-            (uint16_t)modbus->rx_frame[i];
-
-            holding_registers[register_address] = data; 
-            
-            register_address ++;
-        }
-        
-        quantity_write_reg = ((uint16_t)modbus->rx_frame[4] << 8) |
-               (uint16_t)modbus->rx_frame[5];  // количество записанных регистров передаем в ответ
- 
-        crc = modbus_crc16(modbus->tx_frame, 8);
-
-        // ответный кадр
-        modbus->tx_frame[0] = modbus->rx_frame[0]; // слейв 
-        modbus->tx_frame[1] = modbus->rx_frame[1]; // функция
-        modbus->tx_frame[2] = modbus->rx_frame[2]; // адрес регистра
-        modbus->tx_frame[3] = modbus->rx_frame[3]; // адрес регистра
-        modbus->tx_frame[4] = modbus->rx_frame[4]; // количество регистров
-        modbus->tx_frame[5] = modbus->rx_frame[5]; // количество регистров
-        modbus->tx_frame[6] = (uint8_t)(crc & 0xFF);
-        modbus->tx_frame[7] = (uint8_t)(crc >> 8);
-    
-        modbus->tx_length = 8; // длина сформ кадра в  modbus->tx_length
-
-        return 1;
-}
-
-
 //6
 int modbus_handle_write_single_hldreg(modbus_rtu *modbus, const uint16_t *registers, uint16_t registers_count){
     
@@ -325,7 +292,96 @@ int modbus_handle_write_single_hldreg(modbus_rtu *modbus, const uint16_t *regist
     return 1;
 }
 
+//16
+int modbus_handle_write_multiple_hldreg(modbus_rtu *modbus, const uint16_t *registers, uint16_t registers_count){
+    
+    uint16_t register_address; // адрес первого регистра
+    uint16_t data;
+    uint16_t crc;
+    uint16_t quantity_write_reg; //количество записываемых регистров
+    uint16_t byte_count; //количество байт
 
+    if (registers == NULL) return 0;
+
+    if (modbus->rx_frame[1] != MODBUS_FC_WRITE_MULTIPLE_REGISTERS) {
+        return 0; // если функция не 16
+    }
+  
+    register_address =((uint16_t)modbus->rx_frame[2] << 8) |
+                       (uint16_t)modbus->rx_frame[3];
+    // берем адрес
+
+    quantity_write_reg =((uint16_t)modbus->rx_frame[4] << 8) |
+                       (uint16_t)modbus->rx_frame[5];
+    // количество регистров
+
+    byte_count = ((uint16_t)modbus->rx_frame[6]); 
+
+    for (uint8_t i = 7; i < (quantity_write_reg + 7); i++)
+    {
+        data =((uint16_t)modbus->rx_frame[i] << 8) |
+        (uint16_t)modbus->rx_frame[i];
+
+        holding_registers[register_address] = data; 
+        
+        register_address ++;
+    }
+    
+    quantity_write_reg = ((uint16_t)modbus->rx_frame[4] << 8) |
+           (uint16_t)modbus->rx_frame[5];  // количество записанных регистров передаем в ответ
+
+    crc = modbus_crc16(modbus->tx_frame, 8);
+
+    // ответный кадр
+    modbus->tx_frame[0] = modbus->rx_frame[0]; // слейв 
+    modbus->tx_frame[1] = modbus->rx_frame[1]; // функция
+    modbus->tx_frame[2] = modbus->rx_frame[2]; // адрес регистра
+    modbus->tx_frame[3] = modbus->rx_frame[3]; // адрес регистра
+    modbus->tx_frame[4] = modbus->rx_frame[4]; // количество регистров
+    modbus->tx_frame[5] = modbus->rx_frame[5]; // количество регистров
+    modbus->tx_frame[6] = (uint8_t)(crc & 0xFF);
+    modbus->tx_frame[7] = (uint8_t)(crc >> 8);
+
+    modbus->tx_length = 8; // длина сформ кадра в  modbus->tx_length
+
+    return 1;
+}
+
+
+// 17
+int modbus_handle_report_slave_id(modbus_rtu *modbus){
+    
+        uint16_t crc;
+    
+    
+        if (modbus->rx_length != 4) { //0x03 всегда содержит 8 байтов
+            return 0;
+        }
+    
+        if (modbus->rx_frame[1] != MODBUS_FC_REPORT_SLAVE_ID) {
+            return 0; // если функция не 17
+        }
+    
+        if (modbus->rx_frame[0] == 0) { // бродкаст
+            return 0;
+        }
+    
+      // формируем ответный кадр
+        modbus->tx_frame[0] = modbus->address;
+        modbus->tx_frame[1] = MODBUS_FC_REPORT_SLAVE_ID;
+        modbus->tx_frame[2] = 2;
+        modbus->tx_frame[3] = modbus->address;
+        modbus->tx_frame[4] = 0xFF;
+
+        crc = modbus_crc16(modbus->tx_frame, 5);
+
+        modbus->tx_frame[5] = (uint8_t)(crc & 0xFF);
+        modbus->tx_frame[6] = (uint8_t)(crc >> 8);
+    
+        modbus->tx_length = 7; // длина сформ кадра в  modbus->tx_length
+    
+        return 1;
+    }
 
 /*
 
