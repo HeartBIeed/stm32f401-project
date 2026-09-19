@@ -32,7 +32,7 @@ int main(void)
 	SysTick_init();
 	DWT_init();
 	gpio_init();
-	USART1_init(9600);
+	USART1_init(115200);
 	//SPI1_init();
 	RTC_init();
 //	RTC_setTime(4,41);

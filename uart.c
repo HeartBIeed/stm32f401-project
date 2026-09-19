@@ -7,7 +7,7 @@
 static  ring_buffer uart1_rx_buffer; // создали буфер
 static  uint8_t uart1_rx_data[256]; // массив под буфер
 
-void USART1_init(uint16_t baudrate){
+void USART1_init(uint32_t baudrate){
 
 	RCC->AHB1ENR |= RCC_AHB1ENR_GPIOAEN; 
 	RCC->APB2ENR |= RCC_APB2ENR_USART1EN; //APB bus

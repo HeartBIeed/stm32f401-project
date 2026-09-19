@@ -7,9 +7,11 @@ void modbus_init(modbus_rtu *modbus, uint8_t slave_address){
     modbus->address = slave_address;
     modbus->rx_length = 0;
     modbus->last_byte_time = 0;
-    modbus->frame_timeout = 4; // настроить таймаут одного кадра
     modbus->rx_state = MODBUS_RX_IDLE; // стартовое состояние
 
+    if (USART1->BRR == 0x222E) modbus->frame_timeout = 4; // 9600
+    if (USART1->BRR == 0x1117) modbus->frame_timeout = 3; // 19200
+    if (USART1->BRR == 0x02D9) modbus->frame_timeout = 2; // 115200
 }
 
 
@@ -40,7 +42,7 @@ void modbus_poll(modbus_rtu *modbus){ // передаем экземпляр с�
                     modbus->rx_frame[modbus->rx_length] = byte; // пишем в структуру байт
                     modbus->rx_length++; //инкремент позиции байтов
 
-                    modbus->last_byte_time = get_mills(); // пишем в ЛБТ время
+                    modbus->last_byte_time = get_mills(); // пишем в ЛБТ время (!!!)
                     modbus->rx_state = MODBUS_RX_RECEIVING;
 
                 } else { // если буфер переполнен
@@ -50,9 +52,9 @@ void modbus_poll(modbus_rtu *modbus){ // передаем экземпляр с�
                 }
             } // end while
 
-            current_time = get_mills();
+            current_time = get_mills(); //(!!!)
 
-            if ((current_time - modbus->last_byte_time) >= modbus->frame_timeout) {
+            if ((current_time - modbus->last_byte_time) >= modbus->frame_timeout) { //(!!!)
                 modbus->rx_state = MODBUS_RX_FRAME_READY; // кадр приняли
             }
 
@@ -385,16 +387,10 @@ int modbus_handle_report_slave_id(modbus_rtu *modbus){
 
 /*
 
-rx_frame[0] == 0x01  // адрес Slave
-rx_frame[1] == 0x03  // Read Holding Registers
-rx_frame[2] == 0x00  // старший байт начального адреса
-rx_frame[3] == 0x00  // младший байт начального адреса
-rx_frame[4] == 0x00  // старший байт количества
-rx_frame[5] == 0x0A  // прочитать 10 регистровЫ
+ Скорость t3.5 при 11 битах (8E1 / 8N2)
+ 4800         | 8,021 мс 
+ 9600         | 4,010 мс 
+ 19200        | 2,005 мс 
+ 38400 и выше | 1,750 мс  
 
 */
-
-
-// [addr] [0x06] [reg_hi] [reg_lo] [val_hi] [val_lo] [crc_lo] [crc_hi]
-
-
