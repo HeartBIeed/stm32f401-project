@@ -9,7 +9,7 @@ void SPI1_init(){
 	RCC->AHB1ENR |= RCC_AHB1ENR_GPIOAEN; 
 	RCC->APB2ENR |= RCC_APB2ENR_SPI1EN; 
 
-	GPIOA->MODER &= ~(3 << (SCL*2))|(3 << (SDA*2)); 
+	GPIOA->MODER &= ~((3 << (SCL*2)) | (3 << (SDA*2))); 
 	GPIOA->MODER |= (2 << (SCL*2))|(2 << (SDA*2));
 
 	GPIOA->OTYPER &= ~((1 << SCL)|(1 << SDA));

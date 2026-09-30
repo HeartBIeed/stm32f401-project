@@ -3,11 +3,12 @@
 #include "uart.h"
 #include "timer.h"
 #include "spi.h"
-#include "st7735_gfx.h"
 #include "rtc.h"
-#include "tm1638.h"
 #include "gpio.h"
-#include "clock.h"
+
+#include "eink.h"
+
+uint8_t empty[10000];
 
 //#include "i2c.h"
 //#include "aht20.h"
@@ -26,23 +27,16 @@ int main(void)
 	SPI1_init();
 	RTC_init();
 
-	ST7735_init();
-	tm1638_init();
+			EINK_init();
+				_delay_ms(1000);
+			EINK_draw(empty);	
 
-
-	ST7735_FillRect(0,0,160,128,BLACK);
 	USART1_send_string("start \r\n"); 
-
 //	RTC_setTime(17,33);
 
 while(1){
 
-
-
-
-
-
-blink();
+	blink();
 	}
 }
 
@@ -52,6 +46,5 @@ void blink(){
 		{
 			GPIOC->ODR ^= (1 << 13);
 			start[0] = ms_ticks;
-			RTC_print_time();
 		}
 }
