@@ -23,7 +23,6 @@ void EINK_setPins(){
 	MODIFY_REG(GPIOA->OSPEEDR, (3 << (DC*2)), (3 << (DC*2)));
 	MODIFY_REG(GPIOA->OSPEEDR, (3 << (CS*2)), (3 << (CS*2)));
 
-
 	GPIOA->BSRR |= (1 << RESET);
 }
 
@@ -66,12 +65,7 @@ void EINK_data(uint8_t data){
 
 uint8_t wait_BUSY(){
 
-	int timeout = 1000000;
-
-	while(!(READ_BIT(GPIOA->IDR,(1 << BUSY)))){
-		if (--timeout == 0) return 0;
-	}
-
+	while(!(READ_BIT(GPIOA->IDR,(1 << BUSY))));
 	return 1;
 }
 
@@ -123,7 +117,6 @@ void EINK_init(){
 		
 	CS_high();
 		_delay_ms(100);
-
 }
 
 
@@ -132,7 +125,8 @@ void EINK_draw(uint8_t *data){
 	CS_low();
 
 	EINK_cmd(0x04); // pwr on
-	_delay_ms(1000);//!!!!!!!!!!!!!!!!
+
+_delay_ms(100);
 
 	if (!wait_BUSY()){
 
@@ -144,19 +138,13 @@ void EINK_draw(uint8_t *data){
 
 	for (uint16_t i = 0; i < 10000; i++)
 	{
-//			EINK_data(data[i]);
-//			EINK_data(0xFF); // RED test
-			EINK_data(0xAA); // YELLOW test
-//			EINK_data(0x55); // WHITE test
-//			EINK_data(0x00); // BLACK test
-
+			EINK_data(data[i]);
 	}
-
 
 	EINK_cmd(0x12); // показать
 	EINK_data(0x00);
-
-	_delay_ms(1000);//!!!!!!!!!!!!!!!!
+	
+_delay_ms(100);
 
 	if (!wait_BUSY()){
 
@@ -171,8 +159,46 @@ void EINK_draw(uint8_t *data){
 	EINK_data(0xA5);
 */
 	CS_high();
-
 }
 
+void EINK_fill(EINK_fill_Color color){
+
+	CS_low();
+
+	EINK_cmd(0x04); // pwr on
+
+_delay_ms(100);
+
+	if (!wait_BUSY()){
+
+		CS_high();
+		return;
+	}
+
+	EINK_cmd(0x10); // start tx
+
+	for (uint16_t i = 0; i < 10000; i++)
+	{
+		EINK_data(color); 
+	}
+
+	EINK_cmd(0x12); // показать
+	EINK_data(0x00);
+
+_delay_ms(100);
+
+	if (!wait_BUSY()){
+
+		CS_high();
+		return;
+	}	
 
 
+	EINK_cmd(0x02); //pwr off
+	EINK_data(0x00);
+/*
+	EINK_cmd(0x07); //sleep
+	EINK_data(0xA5);
+*/
+	CS_high();
+}

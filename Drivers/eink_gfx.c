@@ -1,64 +1,47 @@
-//#include "EINK_gfx.h"
+#include "eink_gfx.h"
 
-#define SCREEN_WIDTH 160
-#define SCREEN_HEIGHT 128
+#define SCREEN_WIDTH 200
+#define SCREEN_HEIGHT 200
 
 #define EN 32
 #define RU 0xC0
 
-int ST7735_FillRect(uint16_t x, uint16_t y, uint16_t w, uint16_t h, ST7735_Color color) {
+int FB_DrawPixel(uint8_t *fbuffer, uint16_t x, uint16_t y, EINK_Color color) {
 
-  if((x >= SCREEN_WIDTH) || (y >= SCREEN_HEIGHT)) return 0;
-  if(w <= 0 || h <= 0) return 0;
-
-  if(x + w >  SCREEN_WIDTH)  w = SCREEN_WIDTH  - x;
-  if(y + h > SCREEN_HEIGHT) h = SCREEN_HEIGHT - y;
-
-CS_low();
-
-	ST7735_cmd(0x2A);
-	ST7735_data(0);
-	ST7735_data(x);
-	ST7735_data(0);
-	ST7735_data(x+w-1);
-
-	ST7735_cmd(0x2B);
-	ST7735_data(0);
-	ST7735_data(y);
-	ST7735_data(0);
-	ST7735_data(y+h-1);
-
-	ST7735_cmd(0x2C);
-
-	DATA_mode();
-
-for(int16_t i=0; i<h; i++) {
-    for(int16_t j=0; j<w; j++) {
-
-    SPI1_send_byte(color >> 8);
-    SPI1_send_byte(color & 0xFF);
-
-    }
-  }
-
- CS_high();
- return 1;
-}
-
-int ST7735_DrawPixel(uint16_t x, uint16_t y, ST7735_Color color) {
     if (x >= SCREEN_WIDTH || y >= SCREEN_HEIGHT) return 0;
     
-    // Отправка команды на установку области
-    ST7735_SetRegion(x, y, 1, 1);
+    uint32_t pixel = y * SCREEN_WIDTH + x; //номер пикселя на экране
+    uint32_t byte_index = pixel / 4; //позиция байта в массиве 
+    uint32_t pixel_in_byte = pixel % 4; //позиция пикселя в байте (в 1 байте их 4)
 
-    	DATA_mode();
-		SPI1_send_byte(color >> 8);
-		SPI1_send_byte(color & 0xFF);
+    uint32_t shift = 6 - pixel_in_byte * 2 ; //сдвиг цвета 
+
+    fbuffer[byte_index] &= ~(0x3 << shift); //стереть старое значение
+    fbuffer[byte_index] |= (color << shift);
+
 	return 1;
 }
 
+int FB_FillRect(uint8_t *fbuffer,uint16_t x, uint16_t y, uint16_t w, uint16_t h, EINK_Color color) {
 
-void ST7735_DrawChar(uint16_t x, uint16_t y, char c, ST7735_Color color,FontDef font) {
+    if((x >= SCREEN_WIDTH) || (y >= SCREEN_HEIGHT)) return 0;
+    if(w <= 0 || h <= 0) return 0;
+  
+    if(x + w >  SCREEN_WIDTH)  w = SCREEN_WIDTH  - x;
+    if(y + h > SCREEN_HEIGHT) h = SCREEN_HEIGHT - y;
+  
+  
+  for(int16_t i=0; i<h; i++) {
+      for(int16_t j=0; j<w; j++) {
+  
+      FB_DrawPixel(fbuffer, x + j, y + i, color);
+  
+      }
+    }
+     return 1;
+}
+
+void FB_DrawChar(uint8_t *fbuffer,uint16_t x, uint16_t y, char c, EINK_Color color,FontDef font) {
 
 //    const uint16_t* char_data = font.data + ((int)c-32)*font.height;
 // индекс символа × высота   
@@ -88,24 +71,23 @@ const uint16_t* char_data;
 
 			if (row_data & mask){ //0x80 - 0b10000000
              // Рисуем пиксель, если бит = 1
-            ST7735_DrawPixel(x + col, y + row, color);
+             FB_DrawPixel(fbuffer, x + col, y + row, color);
 			} //end if
 		} //end for 2
 	} //end for 1	
 }
 
 
-void ST7735_DrawString(uint16_t x, uint16_t y, 
-						const char* str, ST7735_Color color,
+void FB_DrawString(uint8_t *fbuffer,uint16_t x, uint16_t y, 
+						const char* str, EINK_Color color,
 						FontDef font) {
 
-CS_low();
 
     uint16_t cursor_x = x;
 
     while (*str) {
 
-        ST7735_DrawChar(cursor_x, y, *str, color,font);
+        FB_DrawChar(fbuffer, cursor_x, y, *str, color,font);
         cursor_x += font.width;  // Ширина символа
 
         // Проверка выхода за границу экрана
@@ -116,13 +98,12 @@ CS_low();
 
      str++; 
      }  //end while
-CS_high(); 
 }
 
 
-void ST7735_DrawLine(int16_t x0, int16_t y0,
+void FB_DrawLine(uint8_t *fbuffer,int16_t x0, int16_t y0,
                      int16_t x1, int16_t y1,
-                     ST7735_Color color)
+                     EINK_Color color)
 {
     int16_t dx = abs(x1 - x0);
     int16_t step_x = (x0 < x1) ? 1 : -1; // шаг по х
@@ -132,11 +113,10 @@ void ST7735_DrawLine(int16_t x0, int16_t y0,
 
     int16_t err = dx + dy; // ошибка - отклонение
 
-    CS_low();
 
     while (1)
     {
-        ST7735_DrawPixel(x0, y0, color);
+        FB_DrawPixel(fbuffer, x0, y0, color);
 
         if (x0 == x1 && y0 == y1)
             break;
@@ -156,32 +136,29 @@ void ST7735_DrawLine(int16_t x0, int16_t y0,
         }
     }
 
-    CS_high();
 }
 
 
 
 
 
-void bresenhamCircle(int16_t x0, int16_t y0, int16_t radius, ST7735_Color color){
+void bresenhamCircle(uint8_t *fbuffer,int16_t x0, int16_t y0, int16_t radius, EINK_Color color){
 
 	int16_t x = 0;
 	int16_t y = radius;
 	int16_t d = 3 - 2 * radius; // Начальное значение параметра принятия решения
 
-CS_low();
-
 	while (y >= x){
 		// Используем симметрию окружности для отрисовки точек во всех октантах
 
-		ST7735_DrawPixel(x0 + x, y0 + y,color);
-		ST7735_DrawPixel(x0 + y, y0 + x,color);
-		ST7735_DrawPixel(x0 - y, y0 + x,color);
-		ST7735_DrawPixel(x0 - x, y0 + y,color);
-		ST7735_DrawPixel(x0 - x, y0 - y,color);
-		ST7735_DrawPixel(x0 - y, y0 - x,color);
-		ST7735_DrawPixel(x0 + y, y0 - x,color);
-		ST7735_DrawPixel(x0 + x, y0 - y,color);
+		FB_DrawPixel(fbuffer, x0 + x, y0 + y,color);
+		FB_DrawPixel(fbuffer, x0 + y, y0 + x,color);
+		FB_DrawPixel(fbuffer, x0 - y, y0 + x,color);
+		FB_DrawPixel(fbuffer, x0 - x, y0 + y,color);
+		FB_DrawPixel(fbuffer, x0 - x, y0 - y,color);
+		FB_DrawPixel(fbuffer, x0 - y, y0 - x,color);
+		FB_DrawPixel(fbuffer, x0 + y, y0 - x,color);
+		FB_DrawPixel(fbuffer, x0 + x, y0 - y,color);
 
 		if (d < 0) {
 
@@ -194,12 +171,10 @@ CS_low();
 
 	x++;
 	}
-
-CS_high(); 
 }
 
 
-void bresenhamCircleFill(int16_t x0, int16_t y0, int16_t radius, ST7735_Color color)
+void bresenhamCircleFill(uint8_t *fbuffer,int16_t x0, int16_t y0, int16_t radius, EINK_Color color)
 {
     int16_t x = 0;
     int16_t y = radius;
@@ -208,11 +183,11 @@ void bresenhamCircleFill(int16_t x0, int16_t y0, int16_t radius, ST7735_Color co
     while (y >= x){
         // рисуем заливку горизонтальными линиями (8 октантов)
 
-        ST7735_DrawLine(x0 - x, y0 + y, x0 + x, y0 + y, color);
-        ST7735_DrawLine(x0 - x, y0 - y, x0 + x, y0 - y, color);
+        FB_DrawLine(fbuffer, x0 - x, y0 + y, x0 + x, y0 + y, color);
+        FB_DrawLine(fbuffer, x0 - x, y0 - y, x0 + x, y0 - y, color);
 
-        ST7735_DrawLine(x0 - y, y0 + x, x0 + y, y0 + x, color);
-        ST7735_DrawLine(x0 - y, y0 - x, x0 + y, y0 - x,  color);
+        FB_DrawLine(fbuffer, x0 - y, y0 + x, x0 + y, y0 + x, color);
+        FB_DrawLine(fbuffer, x0 - y, y0 - x, x0 + y, y0 - x,  color);
 
         if (d < 0){
 

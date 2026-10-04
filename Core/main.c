@@ -7,8 +7,9 @@
 #include "gpio.h"
 
 #include "eink.h"
+#include "eink_gfx.h"
 
-uint8_t empty[10000];
+uint8_t framebuffer_eink[10000];
 
 //#include "i2c.h"
 //#include "aht20.h"
@@ -29,10 +30,32 @@ int main(void)
 
 			EINK_init();
 				_delay_ms(1000);
-			EINK_draw(empty);	
+//			EINK_fill(EINK_FILL_YELLOW);	
+//			EINK_fill(EINK_FILL_RED);	
 
 	USART1_send_string("start \r\n"); 
 //	RTC_setTime(17,33);
+
+char str[] = {"Lorem ipsum dolor sit amet,"
+	"consectetur adipiscing elit. Sed do "
+	 "eiusmod tempor incididunt ut labore et"
+	 "dolore magna aliqua. Ut enim ad minim veniam,"
+	  "quis nostrud exercitation ullamco laboris nisi"
+	  "ut aliquip ex ea commodo consequat."
+	  "Duis aute irure dolor in reprehenderit"
+	  "in voluptate velit esse cillum dolore eu"
+	  "fugiat nulla pariatur. Excepteur sint occaecat"
+	  "cupidatat non proident, sunt in culpa qui officia"
+	  "deserunt mollit anim id est laborum."};
+
+FB_FillRect(framebuffer_eink,0, 0, 200, 200, EINK_BLACK);
+//FB_FillRect(framebuffer_eink,10, 10, 50, 50, EINK_RED);
+
+bresenhamCircleFill(framebuffer_eink,160,160,30, EINK_RED);
+//FB_DrawLine(framebuffer_eink,190,0,190, 200,EINK_WHITE);
+FB_DrawString(framebuffer_eink,10, 10, str,EINK_YELLOW,Font_7x10);
+
+EINK_draw(framebuffer_eink);
 
 while(1){
 
