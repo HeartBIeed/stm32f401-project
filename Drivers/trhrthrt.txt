@@ -1,0 +1,153 @@
+RST = 0
+Delay 10 ms
+RST = 1
+Delay 120 ms
+
+
+CS = 0
+
+CMD 0x01                    // Software Reset
+CS = 1
+Delay 120 ms
+
+
+CS = 0
+CMD 0x11                    // Sleep Out
+CS = 1
+Delay 120 ms
+
+
+CS = 0
+CMD 0xF0                    // Command Set Control
+DATA 0xC3                   // Enable command set 2
+CS = 1
+
+
+CS = 0
+CMD 0xF0                    // Command Set Control
+DATA 0x96                   // Enable command set 2
+CS = 1
+
+
+CS = 0
+CMD 0x36                    // MADCTL — ориентация
+DATA 0x48                   // MX + BGR
+CS = 1
+
+
+CS = 0
+CMD 0x3A                    // COLMOD — формат пикселя
+DATA 0x55                   // 16 bit/pixel, RGB565
+CS = 1
+
+
+CS = 0
+CMD 0xB4                    // Display Inversion Control
+DATA 0x01
+CS = 1
+
+
+CS = 0
+CMD 0xB7                    // Entry Mode Set
+DATA 0xC6
+CS = 1
+
+
+CS = 0
+CMD 0xC0                    // Power Control 1
+DATA 0x80
+DATA 0x45
+CS = 1
+
+
+CS = 0
+CMD 0xC1                    // Power Control 2
+DATA 0x13
+CS = 1
+
+
+CS = 0
+CMD 0xC2                    // Power Control 3
+DATA 0xA7
+CS = 1
+
+
+CS = 0
+CMD 0xC5                    // VCOM Control
+DATA 0x0A
+CS = 1
+
+
+CS = 0
+CMD 0xE8                    // Display Output Adjustment
+DATA 0x40
+DATA 0x8A
+DATA 0x00
+DATA 0x00
+DATA 0x29
+DATA 0x19
+DATA 0xA5
+DATA 0x33
+CS = 1
+
+
+CS = 0
+CMD 0xE0                    // Positive Gamma Control
+DATA 0xD0
+DATA 0x08
+DATA 0x0F
+DATA 0x06
+DATA 0x06
+DATA 0x33
+DATA 0x30
+DATA 0x33
+DATA 0x47
+DATA 0x17
+DATA 0x13
+DATA 0x13
+DATA 0x2B
+DATA 0x31
+CS = 1
+
+
+CS = 0
+CMD 0xE1                    // Negative Gamma Control
+DATA 0xD0
+DATA 0x0A
+DATA 0x11
+DATA 0x0B
+DATA 0x09
+DATA 0x07
+DATA 0x2F
+DATA 0x33
+DATA 0x47
+DATA 0x38
+DATA 0x15
+DATA 0x16
+DATA 0x2C
+DATA 0x32
+CS = 1
+
+
+CS = 0
+CMD 0xF0                    // Command Set Control
+DATA 0x3C                   // Disable command set 2
+CS = 1
+
+
+CS = 0
+CMD 0xF0
+DATA 0x69                   // Disable command set 2
+CS = 1
+
+
+CS = 0
+CMD 0x21                    
+CS = 1
+
+
+CS = 0
+CMD 0x29                    
+CS = 1
+
+Delay 50 ms

@@ -1099,285 +1099,194 @@ Discarded input sections
  .comment       0x00000000       0x47 Build/fonts.o
  .ARM.attributes
                 0x00000000       0x34 Build/fonts.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .group         0x00000000        0xc Build/st7735.o
- .text          0x00000000        0x0 Build/st7735.o
- .data          0x00000000        0x0 Build/st7735.o
- .bss           0x00000000        0x0 Build/st7735.o
- .text.ST7735_SetRegion
-                0x00000000       0x90 Build/st7735.o
- .debug_macro   0x00000000      0xacc Build/st7735.o
- .debug_macro   0x00000000       0x16 Build/st7735.o
- .debug_macro   0x00000000       0x22 Build/st7735.o
- .debug_macro   0x00000000       0x8e Build/st7735.o
- .debug_macro   0x00000000       0x51 Build/st7735.o
- .debug_macro   0x00000000      0x103 Build/st7735.o
- .debug_macro   0x00000000       0x6a Build/st7735.o
- .debug_macro   0x00000000      0x1df Build/st7735.o
- .debug_macro   0x00000000       0x61 Build/st7735.o
- .debug_macro   0x00000000       0x2a Build/st7735.o
- .debug_macro   0x00000000       0x43 Build/st7735.o
- .debug_macro   0x00000000       0x34 Build/st7735.o
- .debug_macro   0x00000000       0x16 Build/st7735.o
- .debug_macro   0x00000000       0x9e Build/st7735.o
- .debug_macro   0x00000000      0x364 Build/st7735.o
- .debug_macro   0x00000000      0x112 Build/st7735.o
- .debug_macro   0x00000000       0x10 Build/st7735.o
- .debug_macro   0x00000000       0x16 Build/st7735.o
- .debug_macro   0x00000000       0x4a Build/st7735.o
- .debug_macro   0x00000000       0x34 Build/st7735.o
- .debug_macro   0x00000000       0x10 Build/st7735.o
- .debug_macro   0x00000000       0x58 Build/st7735.o
- .debug_macro   0x00000000       0x8e Build/st7735.o
- .debug_macro   0x00000000       0x1c Build/st7735.o
- .debug_macro   0x00000000      0x17e Build/st7735.o
- .debug_macro   0x00000000       0x16 Build/st7735.o
- .debug_macro   0x00000000       0x16 Build/st7735.o
- .debug_macro   0x00000000      0x146 Build/st7735.o
- .debug_macro   0x00000000       0x16 Build/st7735.o
- .debug_macro   0x00000000       0x3c Build/st7735.o
- .debug_macro   0x00000000       0x16 Build/st7735.o
- .debug_macro   0x00000000       0x29 Build/st7735.o
- .debug_macro   0x00000000       0x16 Build/st7735.o
- .debug_macro   0x00000000       0x2e Build/st7735.o
- .debug_macro   0x00000000       0x28 Build/st7735.o
- .debug_macro   0x00000000       0x1c Build/st7735.o
- .debug_macro   0x00000000       0x22 Build/st7735.o
- .debug_macro   0x00000000       0xfb Build/st7735.o
- .debug_macro   0x00000000     0x1011 Build/st7735.o
- .debug_macro   0x00000000      0x11f Build/st7735.o
- .debug_macro   0x00000000     0xb881 Build/st7735.o
- .debug_macro   0x00000000       0x6d Build/st7735.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .group         0x00000000        0xc Build/st7735_gfx.o
- .text          0x00000000        0x0 Build/st7735_gfx.o
- .data          0x00000000        0x0 Build/st7735_gfx.o
- .bss           0x00000000        0x0 Build/st7735_gfx.o
- .text.ST7735_DrawPixel
-                0x00000000       0x54 Build/st7735_gfx.o
- .text.ST7735_DrawChar
-                0x00000000       0xd0 Build/st7735_gfx.o
- .text.ST7735_DrawString
-                0x00000000       0x80 Build/st7735_gfx.o
- .text.ST7735_DrawLine
-                0x00000000       0xfe Build/st7735_gfx.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .group         0x00000000        0xc Build/st7796.o
+ .text          0x00000000        0x0 Build/st7796.o
+ .data          0x00000000        0x0 Build/st7796.o
+ .bss           0x00000000        0x0 Build/st7796.o
+ .text.ST7796_SetRegion
+                0x00000000       0x90 Build/st7796.o
+ .debug_macro   0x00000000      0xacc Build/st7796.o
+ .debug_macro   0x00000000       0x16 Build/st7796.o
+ .debug_macro   0x00000000       0x22 Build/st7796.o
+ .debug_macro   0x00000000       0x8e Build/st7796.o
+ .debug_macro   0x00000000       0x51 Build/st7796.o
+ .debug_macro   0x00000000      0x103 Build/st7796.o
+ .debug_macro   0x00000000       0x6a Build/st7796.o
+ .debug_macro   0x00000000      0x1df Build/st7796.o
+ .debug_macro   0x00000000       0x61 Build/st7796.o
+ .debug_macro   0x00000000       0x2a Build/st7796.o
+ .debug_macro   0x00000000       0x43 Build/st7796.o
+ .debug_macro   0x00000000       0x34 Build/st7796.o
+ .debug_macro   0x00000000       0x16 Build/st7796.o
+ .debug_macro   0x00000000       0x9e Build/st7796.o
+ .debug_macro   0x00000000      0x364 Build/st7796.o
+ .debug_macro   0x00000000      0x112 Build/st7796.o
+ .debug_macro   0x00000000       0x10 Build/st7796.o
+ .debug_macro   0x00000000       0x16 Build/st7796.o
+ .debug_macro   0x00000000       0x4a Build/st7796.o
+ .debug_macro   0x00000000       0x34 Build/st7796.o
+ .debug_macro   0x00000000       0x10 Build/st7796.o
+ .debug_macro   0x00000000       0x58 Build/st7796.o
+ .debug_macro   0x00000000       0x8e Build/st7796.o
+ .debug_macro   0x00000000       0x1c Build/st7796.o
+ .debug_macro   0x00000000      0x17e Build/st7796.o
+ .debug_macro   0x00000000       0x16 Build/st7796.o
+ .debug_macro   0x00000000       0x16 Build/st7796.o
+ .debug_macro   0x00000000      0x146 Build/st7796.o
+ .debug_macro   0x00000000       0x16 Build/st7796.o
+ .debug_macro   0x00000000       0x3c Build/st7796.o
+ .debug_macro   0x00000000       0x16 Build/st7796.o
+ .debug_macro   0x00000000       0x29 Build/st7796.o
+ .debug_macro   0x00000000       0x16 Build/st7796.o
+ .debug_macro   0x00000000       0x2e Build/st7796.o
+ .debug_macro   0x00000000       0x28 Build/st7796.o
+ .debug_macro   0x00000000       0x1c Build/st7796.o
+ .debug_macro   0x00000000       0x22 Build/st7796.o
+ .debug_macro   0x00000000       0xfb Build/st7796.o
+ .debug_macro   0x00000000     0x1011 Build/st7796.o
+ .debug_macro   0x00000000      0x11f Build/st7796.o
+ .debug_macro   0x00000000     0xb881 Build/st7796.o
+ .debug_macro   0x00000000       0x6d Build/st7796.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .group         0x00000000        0xc Build/st7796_gfx.o
+ .text          0x00000000        0x0 Build/st7796_gfx.o
+ .data          0x00000000        0x0 Build/st7796_gfx.o
+ .bss           0x00000000        0x0 Build/st7796_gfx.o
+ .text.ST7796_DrawPixel
+                0x00000000       0x58 Build/st7796_gfx.o
+ .text.ST7796_DrawChar
+                0x00000000       0xd0 Build/st7796_gfx.o
+ .text.ST7796_DrawString
+                0x00000000       0x82 Build/st7796_gfx.o
+ .text.ST7796_DrawLine
+                0x00000000       0xfe Build/st7796_gfx.o
  .text.bresenhamCircle
-                0x00000000      0x164 Build/st7735_gfx.o
+                0x00000000      0x164 Build/st7796_gfx.o
  .text.bresenhamCircleFill
-                0x00000000      0x16e Build/st7735_gfx.o
- .debug_macro   0x00000000      0xacc Build/st7735_gfx.o
- .debug_macro   0x00000000       0x16 Build/st7735_gfx.o
- .debug_macro   0x00000000       0x22 Build/st7735_gfx.o
- .debug_macro   0x00000000       0x8e Build/st7735_gfx.o
- .debug_macro   0x00000000       0x51 Build/st7735_gfx.o
- .debug_macro   0x00000000      0x103 Build/st7735_gfx.o
- .debug_macro   0x00000000       0x6a Build/st7735_gfx.o
- .debug_macro   0x00000000      0x1df Build/st7735_gfx.o
- .debug_macro   0x00000000       0x61 Build/st7735_gfx.o
- .debug_macro   0x00000000       0x2a Build/st7735_gfx.o
- .debug_macro   0x00000000       0x43 Build/st7735_gfx.o
- .debug_macro   0x00000000       0x34 Build/st7735_gfx.o
- .debug_macro   0x00000000       0x16 Build/st7735_gfx.o
- .debug_macro   0x00000000       0x9e Build/st7735_gfx.o
- .debug_macro   0x00000000      0x364 Build/st7735_gfx.o
- .debug_macro   0x00000000      0x112 Build/st7735_gfx.o
- .debug_macro   0x00000000       0x10 Build/st7735_gfx.o
- .debug_macro   0x00000000       0x16 Build/st7735_gfx.o
- .debug_macro   0x00000000       0x4a Build/st7735_gfx.o
- .debug_macro   0x00000000       0x34 Build/st7735_gfx.o
- .debug_macro   0x00000000       0x10 Build/st7735_gfx.o
- .debug_macro   0x00000000       0x58 Build/st7735_gfx.o
- .debug_macro   0x00000000       0x8e Build/st7735_gfx.o
- .debug_macro   0x00000000       0x1c Build/st7735_gfx.o
- .debug_macro   0x00000000      0x17e Build/st7735_gfx.o
- .debug_macro   0x00000000       0x16 Build/st7735_gfx.o
- .debug_macro   0x00000000       0x16 Build/st7735_gfx.o
- .debug_macro   0x00000000      0x146 Build/st7735_gfx.o
- .debug_macro   0x00000000       0x16 Build/st7735_gfx.o
- .debug_macro   0x00000000       0x3c Build/st7735_gfx.o
- .debug_macro   0x00000000       0x16 Build/st7735_gfx.o
- .debug_macro   0x00000000       0x29 Build/st7735_gfx.o
- .debug_macro   0x00000000       0x16 Build/st7735_gfx.o
- .debug_macro   0x00000000       0x2e Build/st7735_gfx.o
- .debug_macro   0x00000000       0x28 Build/st7735_gfx.o
- .debug_macro   0x00000000       0x1c Build/st7735_gfx.o
- .debug_macro   0x00000000       0x22 Build/st7735_gfx.o
- .debug_macro   0x00000000       0xfb Build/st7735_gfx.o
- .debug_macro   0x00000000     0x1011 Build/st7735_gfx.o
- .debug_macro   0x00000000      0x11f Build/st7735_gfx.o
- .debug_macro   0x00000000     0xb881 Build/st7735_gfx.o
- .debug_macro   0x00000000       0x6d Build/st7735_gfx.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .group         0x00000000        0xc Build/tm1638.o
- .text          0x00000000        0x0 Build/tm1638.o
- .data          0x00000000        0x0 Build/tm1638.o
- .bss           0x00000000        0x0 Build/tm1638.o
- .text.tm1638_read
-                0x00000000       0x8c Build/tm1638.o
- .text.tm1638_set_led
-                0x00000000       0x54 Build/tm1638.o
- .debug_macro   0x00000000      0xacc Build/tm1638.o
- .debug_macro   0x00000000       0x16 Build/tm1638.o
- .debug_macro   0x00000000       0x22 Build/tm1638.o
- .debug_macro   0x00000000       0x8e Build/tm1638.o
- .debug_macro   0x00000000       0x51 Build/tm1638.o
- .debug_macro   0x00000000      0x103 Build/tm1638.o
- .debug_macro   0x00000000       0x6a Build/tm1638.o
- .debug_macro   0x00000000      0x1df Build/tm1638.o
- .debug_macro   0x00000000       0x61 Build/tm1638.o
- .debug_macro   0x00000000       0x2a Build/tm1638.o
- .debug_macro   0x00000000       0x43 Build/tm1638.o
- .debug_macro   0x00000000       0x34 Build/tm1638.o
- .debug_macro   0x00000000       0x16 Build/tm1638.o
- .debug_macro   0x00000000       0x9e Build/tm1638.o
- .debug_macro   0x00000000      0x364 Build/tm1638.o
- .debug_macro   0x00000000      0x112 Build/tm1638.o
- .debug_macro   0x00000000       0x10 Build/tm1638.o
- .debug_macro   0x00000000       0x16 Build/tm1638.o
- .debug_macro   0x00000000       0x4a Build/tm1638.o
- .debug_macro   0x00000000       0x34 Build/tm1638.o
- .debug_macro   0x00000000       0x10 Build/tm1638.o
- .debug_macro   0x00000000       0x58 Build/tm1638.o
- .debug_macro   0x00000000       0x8e Build/tm1638.o
- .debug_macro   0x00000000       0x1c Build/tm1638.o
- .debug_macro   0x00000000      0x17e Build/tm1638.o
- .debug_macro   0x00000000       0x16 Build/tm1638.o
- .debug_macro   0x00000000       0x16 Build/tm1638.o
- .debug_macro   0x00000000      0x146 Build/tm1638.o
- .debug_macro   0x00000000       0x16 Build/tm1638.o
- .debug_macro   0x00000000       0x3c Build/tm1638.o
- .debug_macro   0x00000000       0x16 Build/tm1638.o
- .debug_macro   0x00000000       0x29 Build/tm1638.o
- .debug_macro   0x00000000       0x16 Build/tm1638.o
- .debug_macro   0x00000000       0x2e Build/tm1638.o
- .debug_macro   0x00000000       0x28 Build/tm1638.o
- .debug_macro   0x00000000       0x1c Build/tm1638.o
- .debug_macro   0x00000000       0x22 Build/tm1638.o
- .debug_macro   0x00000000       0xfb Build/tm1638.o
- .debug_macro   0x00000000     0x1011 Build/tm1638.o
- .debug_macro   0x00000000      0x11f Build/tm1638.o
- .debug_macro   0x00000000     0xb881 Build/tm1638.o
- .debug_macro   0x00000000       0x6d Build/tm1638.o
+                0x00000000      0x16e Build/st7796_gfx.o
+ .debug_macro   0x00000000      0xacc Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x16 Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x22 Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x8e Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x51 Build/st7796_gfx.o
+ .debug_macro   0x00000000      0x103 Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x6a Build/st7796_gfx.o
+ .debug_macro   0x00000000      0x1df Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x61 Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x2a Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x43 Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x34 Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x16 Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x9e Build/st7796_gfx.o
+ .debug_macro   0x00000000      0x364 Build/st7796_gfx.o
+ .debug_macro   0x00000000      0x112 Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x10 Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x16 Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x4a Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x34 Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x10 Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x58 Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x8e Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x1c Build/st7796_gfx.o
+ .debug_macro   0x00000000      0x17e Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x16 Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x16 Build/st7796_gfx.o
+ .debug_macro   0x00000000      0x146 Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x16 Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x3c Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x16 Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x29 Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x16 Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x2e Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x28 Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x1c Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x22 Build/st7796_gfx.o
+ .debug_macro   0x00000000       0xfb Build/st7796_gfx.o
+ .debug_macro   0x00000000     0x1011 Build/st7796_gfx.o
+ .debug_macro   0x00000000      0x11f Build/st7796_gfx.o
+ .debug_macro   0x00000000     0xb881 Build/st7796_gfx.o
+ .debug_macro   0x00000000       0x6d Build/st7796_gfx.o
  .text          0x00000000       0x14 Build/startup_stm32f401rctx.o
  .data          0x00000000        0x0 Build/startup_stm32f401rctx.o
  .bss           0x00000000        0x0 Build/startup_stm32f401rctx.o
@@ -1898,9 +1807,8 @@ LOAD Build/uart.o
 LOAD Build/clock.o
 LOAD Build/ring_buffer.o
 LOAD Build/fonts.o
-LOAD Build/st7735.o
-LOAD Build/st7735_gfx.o
-LOAD Build/tm1638.o
+LOAD Build/st7796.o
+LOAD Build/st7796_gfx.o
 LOAD Build/startup_stm32f401rctx.o
 START GROUP
 LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a
@@ -1928,7 +1836,7 @@ LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib
                 0x08000000                g_pfnVectors
                 0x08000194                        . = ALIGN (0x4)
 
-.text           0x080001c0     0x8944
+.text           0x080001c0     0x885c
                 0x080001c0                        . = ALIGN (0x4)
  *(.text)
  .text          0x080001c0       0xa0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memchr.o)
@@ -1990,543 +1898,528 @@ LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib
                 0x08000df4       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  .text.frame_dummy
                 0x08000e1c       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
- .text.main     0x08000e40       0x50 Build/main.o
+ .text.main     0x08000e40       0x4c Build/main.o
                 0x08000e40                main
- .text.blink    0x08000e90       0x3c Build/main.o
-                0x08000e90                blink
+ .text.blink    0x08000e8c       0x3c Build/main.o
+                0x08000e8c                blink
  .text.SystemInit
-                0x08000ecc       0x78 Build/system_stm32f4xx.o
-                0x08000ecc                SystemInit
+                0x08000ec8       0x78 Build/system_stm32f4xx.o
+                0x08000ec8                SystemInit
  .text.SystemCoreClockUpdate
-                0x08000f44      0x100 Build/system_stm32f4xx.o
-                0x08000f44                SystemCoreClockUpdate
+                0x08000f40      0x100 Build/system_stm32f4xx.o
+                0x08000f40                SystemCoreClockUpdate
  .text.GPIO_init
-                0x08001044       0x48 Build/gpio.o
-                0x08001044                GPIO_init
+                0x08001040       0x48 Build/gpio.o
+                0x08001040                GPIO_init
  .text.SystemClock_PLL_84MHz
-                0x0800108c       0xa4 Build/rcc.o
-                0x0800108c                SystemClock_PLL_84MHz
+                0x08001088       0xa4 Build/rcc.o
+                0x08001088                SystemClock_PLL_84MHz
  .text.RTC_init
-                0x08001130       0xd4 Build/rtc.o
-                0x08001130                RTC_init
+                0x0800112c       0xd4 Build/rtc.o
+                0x0800112c                RTC_init
  .text.RTC_getTime
-                0x08001204       0xa0 Build/rtc.o
-                0x08001204                RTC_getTime
+                0x08001200       0xa0 Build/rtc.o
+                0x08001200                RTC_getTime
  .text.SPI1_init
-                0x080012a4       0xd8 Build/spi.o
-                0x080012a4                SPI1_init
+                0x080012a0       0xd8 Build/spi.o
+                0x080012a0                SPI1_init
  .text.SPI1_send_byte
-                0x0800137c       0x48 Build/spi.o
-                0x0800137c                SPI1_send_byte
+                0x08001378       0x48 Build/spi.o
+                0x08001378                SPI1_send_byte
  .text.SysTick_init
-                0x080013c4       0x38 Build/timer.o
-                0x080013c4                SysTick_init
+                0x080013c0       0x38 Build/timer.o
+                0x080013c0                SysTick_init
  .text.DWT_init
-                0x080013fc       0x34 Build/timer.o
-                0x080013fc                DWT_init
+                0x080013f8       0x34 Build/timer.o
+                0x080013f8                DWT_init
  .text.SysTick_Handler
-                0x08001430       0x1c Build/timer.o
-                0x08001430                SysTick_Handler
+                0x0800142c       0x1c Build/timer.o
+                0x0800142c                SysTick_Handler
  .text._delay_ms
-                0x0800144c       0x30 Build/timer.o
-                0x0800144c                _delay_ms
+                0x08001448       0x30 Build/timer.o
+                0x08001448                _delay_ms
  .text._delay_us
-                0x0800147c       0x4c Build/timer.o
-                0x0800147c                _delay_us
+                0x08001478       0x4c Build/timer.o
+                0x08001478                _delay_us
  .text.__NVIC_EnableIRQ
-                0x080014c8       0x3c Build/uart.o
+                0x080014c4       0x3c Build/uart.o
  .text.__NVIC_ClearPendingIRQ
-                0x08001504       0x3c Build/uart.o
+                0x08001500       0x3c Build/uart.o
  .text.USART1_init
-                0x08001540      0x100 Build/uart.o
-                0x08001540                USART1_init
+                0x0800153c      0x100 Build/uart.o
+                0x0800153c                USART1_init
  .text.USART1_send_byte
-                0x08001640       0x30 Build/uart.o
-                0x08001640                USART1_send_byte
+                0x0800163c       0x30 Build/uart.o
+                0x0800163c                USART1_send_byte
  .text.USART1_send_string
-                0x08001670       0x2a Build/uart.o
-                0x08001670                USART1_send_string
- *fill*         0x0800169a        0x2 
+                0x0800166c       0x2a Build/uart.o
+                0x0800166c                USART1_send_string
+ *fill*         0x08001696        0x2 
  .text.USART1_IRQHandler
-                0x0800169c       0x34 Build/uart.o
-                0x0800169c                USART1_IRQHandler
+                0x08001698       0x34 Build/uart.o
+                0x08001698                USART1_IRQHandler
  .text.RTC_print_time
-                0x080016d0      0x11c Build/clock.o
-                0x080016d0                RTC_print_time
+                0x080016cc       0x5c Build/clock.o
+                0x080016cc                RTC_print_time
  .text.ring_buffer_init
-                0x080017ec       0x4a Build/ring_buffer.o
-                0x080017ec                ring_buffer_init
+                0x08001728       0x4a Build/ring_buffer.o
+                0x08001728                ring_buffer_init
  .text.ring_buffer_put
-                0x08001836       0x58 Build/ring_buffer.o
-                0x08001836                ring_buffer_put
- *fill*         0x0800188e        0x2 
- .text.ST7735_setPins
-                0x08001890       0x60 Build/st7735.o
-                0x08001890                ST7735_setPins
+                0x08001772       0x58 Build/ring_buffer.o
+                0x08001772                ring_buffer_put
+ *fill*         0x080017ca        0x2 
+ .text.ST7796_setPins
+                0x080017cc       0x60 Build/st7796.o
+                0x080017cc                ST7796_setPins
  .text.DATA_mode
-                0x080018f0       0x20 Build/st7735.o
-                0x080018f0                DATA_mode
+                0x0800182c       0x20 Build/st7796.o
+                0x0800182c                DATA_mode
  .text.CMD_mode
-                0x08001910       0x20 Build/st7735.o
-                0x08001910                CMD_mode
- .text.CS_high  0x08001930       0x20 Build/st7735.o
-                0x08001930                CS_high
- .text.CS_low   0x08001950       0x20 Build/st7735.o
-                0x08001950                CS_low
- .text.ST7735_reset
-                0x08001970       0x3c Build/st7735.o
-                0x08001970                ST7735_reset
- .text.ST7735_cmd
-                0x080019ac       0x1e Build/st7735.o
-                0x080019ac                ST7735_cmd
- .text.ST7735_data
-                0x080019ca       0x1e Build/st7735.o
-                0x080019ca                ST7735_data
- .text.ST7735_init
-                0x080019e8       0x50 Build/st7735.o
-                0x080019e8                ST7735_init
- .text.ST7735_FillRect
-                0x08001a38      0x132 Build/st7735_gfx.o
-                0x08001a38                ST7735_FillRect
- *fill*         0x08001b6a        0x2 
- .text.clk      0x08001b6c       0x30 Build/tm1638.o
-                0x08001b6c                clk
- .text.tm1638_send
-                0x08001b9c       0x64 Build/tm1638.o
-                0x08001b9c                tm1638_send
- .text.tm1638_init
-                0x08001c00       0x94 Build/tm1638.o
-                0x08001c00                tm1638_init
- .text.tm1638_set_digit
-                0x08001c94       0x7c Build/tm1638.o
-                0x08001c94                tm1638_set_digit
+                0x0800184c       0x20 Build/st7796.o
+                0x0800184c                CMD_mode
+ .text.CS_high  0x0800186c       0x20 Build/st7796.o
+                0x0800186c                CS_high
+ .text.CS_low   0x0800188c       0x20 Build/st7796.o
+                0x0800188c                CS_low
+ .text.ST7796_reset
+                0x080018ac       0x3c Build/st7796.o
+                0x080018ac                ST7796_reset
+ .text.ST7796_cmd
+                0x080018e8       0x1e Build/st7796.o
+                0x080018e8                ST7796_cmd
+ .text.ST7796_data
+                0x08001906       0x1e Build/st7796.o
+                0x08001906                ST7796_data
+ .text.ST7796_init
+                0x08001924      0x1ca Build/st7796.o
+                0x08001924                ST7796_init
+ .text.ST7796_FillRect
+                0x08001aee      0x13a Build/st7796_gfx.o
+                0x08001aee                ST7796_FillRect
  .text.Reset_Handler
-                0x08001d10       0x50 Build/startup_stm32f401rctx.o
-                0x08001d10                Reset_Handler
+                0x08001c28       0x50 Build/startup_stm32f401rctx.o
+                0x08001c28                Reset_Handler
  .text.Default_Handler
-                0x08001d60        0x2 Build/startup_stm32f401rctx.o
-                0x08001d60                RTC_Alarm_IRQHandler
-                0x08001d60                EXTI2_IRQHandler
-                0x08001d60                DebugMon_Handler
-                0x08001d60                SPI4_IRQHandler
-                0x08001d60                TIM1_CC_IRQHandler
-                0x08001d60                DMA2_Stream5_IRQHandler
-                0x08001d60                HardFault_Handler
-                0x08001d60                DMA1_Stream5_IRQHandler
-                0x08001d60                PVD_IRQHandler
-                0x08001d60                SDIO_IRQHandler
-                0x08001d60                TAMP_STAMP_IRQHandler
-                0x08001d60                PendSV_Handler
-                0x08001d60                NMI_Handler
-                0x08001d60                EXTI3_IRQHandler
-                0x08001d60                TIM1_UP_TIM10_IRQHandler
-                0x08001d60                I2C3_ER_IRQHandler
-                0x08001d60                EXTI0_IRQHandler
-                0x08001d60                I2C2_EV_IRQHandler
-                0x08001d60                DMA1_Stream2_IRQHandler
-                0x08001d60                FPU_IRQHandler
-                0x08001d60                UsageFault_Handler
-                0x08001d60                DMA2_Stream2_IRQHandler
-                0x08001d60                SPI1_IRQHandler
-                0x08001d60                TIM1_BRK_TIM9_IRQHandler
-                0x08001d60                DMA2_Stream3_IRQHandler
-                0x08001d60                USART6_IRQHandler
-                0x08001d60                DMA2_Stream0_IRQHandler
-                0x08001d60                TIM4_IRQHandler
-                0x08001d60                I2C1_EV_IRQHandler
-                0x08001d60                DMA1_Stream6_IRQHandler
-                0x08001d60                DMA1_Stream1_IRQHandler
-                0x08001d60                TIM3_IRQHandler
-                0x08001d60                RCC_IRQHandler
-                0x08001d60                Default_Handler
-                0x08001d60                EXTI15_10_IRQHandler
-                0x08001d60                ADC_IRQHandler
-                0x08001d60                DMA1_Stream7_IRQHandler
-                0x08001d60                TIM5_IRQHandler
-                0x08001d60                DMA2_Stream7_IRQHandler
-                0x08001d60                I2C3_EV_IRQHandler
-                0x08001d60                EXTI9_5_IRQHandler
-                0x08001d60                RTC_WKUP_IRQHandler
-                0x08001d60                SPI2_IRQHandler
-                0x08001d60                MemManage_Handler
-                0x08001d60                DMA1_Stream0_IRQHandler
-                0x08001d60                SVC_Handler
-                0x08001d60                EXTI4_IRQHandler
-                0x08001d60                WWDG_IRQHandler
-                0x08001d60                TIM2_IRQHandler
-                0x08001d60                OTG_FS_WKUP_IRQHandler
-                0x08001d60                TIM1_TRG_COM_TIM11_IRQHandler
-                0x08001d60                EXTI1_IRQHandler
-                0x08001d60                USART2_IRQHandler
-                0x08001d60                I2C2_ER_IRQHandler
-                0x08001d60                DMA2_Stream1_IRQHandler
-                0x08001d60                FLASH_IRQHandler
-                0x08001d60                DMA2_Stream4_IRQHandler
-                0x08001d60                BusFault_Handler
-                0x08001d60                OTG_FS_IRQHandler
-                0x08001d60                SPI3_IRQHandler
-                0x08001d60                DMA1_Stream4_IRQHandler
-                0x08001d60                I2C1_ER_IRQHandler
-                0x08001d60                DMA2_Stream6_IRQHandler
-                0x08001d60                DMA1_Stream3_IRQHandler
- *fill*         0x08001d62        0x2 
+                0x08001c78        0x2 Build/startup_stm32f401rctx.o
+                0x08001c78                RTC_Alarm_IRQHandler
+                0x08001c78                EXTI2_IRQHandler
+                0x08001c78                DebugMon_Handler
+                0x08001c78                SPI4_IRQHandler
+                0x08001c78                TIM1_CC_IRQHandler
+                0x08001c78                DMA2_Stream5_IRQHandler
+                0x08001c78                HardFault_Handler
+                0x08001c78                DMA1_Stream5_IRQHandler
+                0x08001c78                PVD_IRQHandler
+                0x08001c78                SDIO_IRQHandler
+                0x08001c78                TAMP_STAMP_IRQHandler
+                0x08001c78                PendSV_Handler
+                0x08001c78                NMI_Handler
+                0x08001c78                EXTI3_IRQHandler
+                0x08001c78                TIM1_UP_TIM10_IRQHandler
+                0x08001c78                I2C3_ER_IRQHandler
+                0x08001c78                EXTI0_IRQHandler
+                0x08001c78                I2C2_EV_IRQHandler
+                0x08001c78                DMA1_Stream2_IRQHandler
+                0x08001c78                FPU_IRQHandler
+                0x08001c78                UsageFault_Handler
+                0x08001c78                DMA2_Stream2_IRQHandler
+                0x08001c78                SPI1_IRQHandler
+                0x08001c78                TIM1_BRK_TIM9_IRQHandler
+                0x08001c78                DMA2_Stream3_IRQHandler
+                0x08001c78                USART6_IRQHandler
+                0x08001c78                DMA2_Stream0_IRQHandler
+                0x08001c78                TIM4_IRQHandler
+                0x08001c78                I2C1_EV_IRQHandler
+                0x08001c78                DMA1_Stream6_IRQHandler
+                0x08001c78                DMA1_Stream1_IRQHandler
+                0x08001c78                TIM3_IRQHandler
+                0x08001c78                RCC_IRQHandler
+                0x08001c78                Default_Handler
+                0x08001c78                EXTI15_10_IRQHandler
+                0x08001c78                ADC_IRQHandler
+                0x08001c78                DMA1_Stream7_IRQHandler
+                0x08001c78                TIM5_IRQHandler
+                0x08001c78                DMA2_Stream7_IRQHandler
+                0x08001c78                I2C3_EV_IRQHandler
+                0x08001c78                EXTI9_5_IRQHandler
+                0x08001c78                RTC_WKUP_IRQHandler
+                0x08001c78                SPI2_IRQHandler
+                0x08001c78                MemManage_Handler
+                0x08001c78                DMA1_Stream0_IRQHandler
+                0x08001c78                SVC_Handler
+                0x08001c78                EXTI4_IRQHandler
+                0x08001c78                WWDG_IRQHandler
+                0x08001c78                TIM2_IRQHandler
+                0x08001c78                OTG_FS_WKUP_IRQHandler
+                0x08001c78                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08001c78                EXTI1_IRQHandler
+                0x08001c78                USART2_IRQHandler
+                0x08001c78                I2C2_ER_IRQHandler
+                0x08001c78                DMA2_Stream1_IRQHandler
+                0x08001c78                FLASH_IRQHandler
+                0x08001c78                DMA2_Stream4_IRQHandler
+                0x08001c78                BusFault_Handler
+                0x08001c78                OTG_FS_IRQHandler
+                0x08001c78                SPI3_IRQHandler
+                0x08001c78                DMA1_Stream4_IRQHandler
+                0x08001c78                I2C1_ER_IRQHandler
+                0x08001c78                DMA2_Stream6_IRQHandler
+                0x08001c78                DMA1_Stream3_IRQHandler
+ *fill*         0x08001c7a        0x2 
  .text.stdio_exit_handler
-                0x08001d64       0x18 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+                0x08001c7c       0x18 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
  .text.cleanup_stdio
-                0x08001d7c       0x40 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+                0x08001c94       0x40 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
  .text.global_stdio_init.part.0
-                0x08001dbc       0xf0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
- .text.__sinit  0x08001eac       0x3c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
-                0x08001eac                __sinit
+                0x08001cd4       0xf0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+ .text.__sinit  0x08001dc4       0x3c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+                0x08001dc4                __sinit
  .text.__sfp_lock_acquire
-                0x08001ee8        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
-                0x08001ee8                __sfp_lock_acquire
+                0x08001e00        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+                0x08001e00                __sfp_lock_acquire
  .text.__sfp_lock_release
-                0x08001ef4        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
-                0x08001ef4                __sfp_lock_release
+                0x08001e0c        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+                0x08001e0c                __sfp_lock_release
  .text._fwalk_sglue
-                0x08001f00       0x44 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fwalk.o)
-                0x08001f00                _fwalk_sglue
- .text.sprintf  0x08001f44       0x44 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sprintf.o)
-                0x08001f44                sprintf
- .text.__sread  0x08001f88       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
-                0x08001f88                __sread
+                0x08001e18       0x44 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fwalk.o)
+                0x08001e18                _fwalk_sglue
+ .text.sprintf  0x08001e5c       0x44 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sprintf.o)
+                0x08001e5c                sprintf
+ .text.__sread  0x08001ea0       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+                0x08001ea0                __sread
  .text.__swrite
-                0x08001fac       0x40 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
-                0x08001fac                __swrite
- .text.__sseek  0x08001fec       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
-                0x08001fec                __sseek
+                0x08001ec4       0x40 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+                0x08001ec4                __swrite
+ .text.__sseek  0x08001f04       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+                0x08001f04                __sseek
  .text.__sclose
-                0x08002010        0x8 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
-                0x08002010                __sclose
- .text.memset   0x08002018       0x9c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memset.o)
-                0x08002018                memset
+                0x08001f28        0x8 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+                0x08001f28                __sclose
+ .text.memset   0x08001f30       0x9c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memset.o)
+                0x08001f30                memset
  .text._close_r
-                0x080020b4       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-closer.o)
-                0x080020b4                _close_r
+                0x08001fcc       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-closer.o)
+                0x08001fcc                _close_r
  .text._lseek_r
-                0x080020d8       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-lseekr.o)
-                0x080020d8                _lseek_r
- .text._read_r  0x08002104       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-readr.o)
-                0x08002104                _read_r
+                0x08001ff0       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-lseekr.o)
+                0x08001ff0                _lseek_r
+ .text._read_r  0x0800201c       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-readr.o)
+                0x0800201c                _read_r
  .text._write_r
-                0x08002130       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-writer.o)
-                0x08002130                _write_r
+                0x08002048       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-writer.o)
+                0x08002048                _write_r
  .text.__libc_init_array
-                0x0800215c       0x50 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-init.o)
-                0x0800215c                __libc_init_array
+                0x08002074       0x50 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-init.o)
+                0x08002074                __libc_init_array
  .text.__retarget_lock_init_recursive
-                0x080021ac        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
-                0x080021ac                __retarget_lock_init_recursive
+                0x080020c4        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+                0x080020c4                __retarget_lock_init_recursive
  .text.__retarget_lock_close_recursive
-                0x080021b0        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
-                0x080021b0                __retarget_lock_close_recursive
+                0x080020c8        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+                0x080020c8                __retarget_lock_close_recursive
  .text.__retarget_lock_acquire_recursive
-                0x080021b4        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
-                0x080021b4                __retarget_lock_acquire_recursive
+                0x080020cc        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+                0x080020cc                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x080021b8        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
-                0x080021b8                __retarget_lock_release_recursive
+                0x080020d0        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+                0x080020d0                __retarget_lock_release_recursive
  .text.startup.register_fini
-                0x080021bc       0x14 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-__call_atexit.o)
- .text.atexit   0x080021d0        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-atexit.o)
-                0x080021d0                atexit
+                0x080020d4       0x14 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-__call_atexit.o)
+ .text.atexit   0x080020e8        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-atexit.o)
+                0x080020e8                atexit
  .text._malloc_trim_r
-                0x080021dc       0xb8 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
-                0x080021dc                _malloc_trim_r
- .text._free_r  0x08002294      0x1f0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
-                0x08002294                _free_r
+                0x080020f4       0xb8 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
+                0x080020f4                _malloc_trim_r
+ .text._free_r  0x080021ac      0x1f0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
+                0x080021ac                _free_r
  .text._malloc_r
-                0x08002484      0x598 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
-                0x08002484                _malloc_r
+                0x0800239c      0x598 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+                0x0800239c                _malloc_r
  .text.__malloc_lock
-                0x08002a1c        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o)
-                0x08002a1c                __malloc_lock
+                0x08002934        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o)
+                0x08002934                __malloc_lock
  .text.__malloc_unlock
-                0x08002a28        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o)
-                0x08002a28                __malloc_unlock
- *fill*         0x08002a34        0x4 
+                0x08002940        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o)
+                0x08002940                __malloc_unlock
+ *fill*         0x0800294c        0x4 
  .text._svfprintf_r
-                0x08002a38     0x21f0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-svfprintf.o)
-                0x08002a38                _svfprintf_r
+                0x08002950     0x21f0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-svfprintf.o)
+                0x08002950                _svfprintf_r
  .text.__ssprint_r
-                0x08004c28       0x58 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-ssprint_r.o)
-                0x08004c28                __ssprint_r
+                0x08004b40       0x58 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-ssprint_r.o)
+                0x08004b40                __ssprint_r
  .text._fclose_r
-                0x08004c80       0xc0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
-                0x08004c80                _fclose_r
+                0x08004b98       0xc0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
+                0x08004b98                _fclose_r
  .text.__sflush_r
-                0x08004d40      0x138 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
-                0x08004d40                __sflush_r
+                0x08004c58      0x138 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+                0x08004c58                __sflush_r
  .text._fflush_r
-                0x08004e78       0x54 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
-                0x08004e78                _fflush_r
- .text.strncpy  0x08004ecc       0x68 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-strncpy.o)
-                0x08004ecc                strncpy
+                0x08004d90       0x54 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+                0x08004d90                _fflush_r
+ .text.strncpy  0x08004de4       0x68 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-strncpy.o)
+                0x08004de4                strncpy
  .text.__locale_mb_cur_max
-                0x08004f34        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-locale.o)
-                0x08004f34                __locale_mb_cur_max
+                0x08004e4c        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-locale.o)
+                0x08004e4c                __locale_mb_cur_max
  .text._localeconv_r
-                0x08004f40        0x8 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-localeconv.o)
-                0x08004f40                _localeconv_r
- .text._sbrk_r  0x08004f48       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sbrkr.o)
-                0x08004f48                _sbrk_r
+                0x08004e58        0x8 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-localeconv.o)
+                0x08004e58                _localeconv_r
+ .text._sbrk_r  0x08004e60       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sbrkr.o)
+                0x08004e60                _sbrk_r
  .text.__libc_fini_array
-                0x08004f6c       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fini.o)
-                0x08004f6c                __libc_fini_array
- .text.sysconf  0x08004f94       0x1c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sysconf.o)
-                0x08004f94                sysconf
- .text.frexp    0x08004fb0       0x64 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libm_a-s_frexp.o)
-                0x08004fb0                frexp
+                0x08004e84       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fini.o)
+                0x08004e84                __libc_fini_array
+ .text.sysconf  0x08004eac       0x1c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sysconf.o)
+                0x08004eac                sysconf
+ .text.frexp    0x08004ec8       0x64 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libm_a-s_frexp.o)
+                0x08004ec8                frexp
  .text.__register_exitproc
-                0x08005014       0x80 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-__atexit.o)
-                0x08005014                __register_exitproc
- .text.quorem   0x08005094      0x12c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
- .text._dtoa_r  0x080051c0     0x1030 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
-                0x080051c0                _dtoa_r
+                0x08004f2c       0x80 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-__atexit.o)
+                0x08004f2c                __register_exitproc
+ .text.quorem   0x08004fac      0x12c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
+ .text._dtoa_r  0x080050d8     0x1030 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
+                0x080050d8                _dtoa_r
  .text.__ascii_mbtowc
-                0x080061f0       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mbtowc_r.o)
-                0x080061f0                __ascii_mbtowc
- .text._Balloc  0x0800621c       0x4c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x0800621c                _Balloc
- .text._Bfree   0x08006268       0x14 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08006268                _Bfree
+                0x08006108       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mbtowc_r.o)
+                0x08006108                __ascii_mbtowc
+ .text._Balloc  0x08006134       0x4c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08006134                _Balloc
+ .text._Bfree   0x08006180       0x14 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08006180                _Bfree
  .text.__multadd
-                0x0800627c       0xa0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x0800627c                __multadd
+                0x08006194       0xa0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08006194                __multadd
  .text.__hi0bits
-                0x0800631c       0x54 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x0800631c                __hi0bits
+                0x08006234       0x54 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08006234                __hi0bits
  .text.__lo0bits
-                0x08006370       0x80 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08006370                __lo0bits
- .text.__i2b    0x080063f0       0x5c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x080063f0                __i2b
+                0x08006288       0x80 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08006288                __lo0bits
+ .text.__i2b    0x08006308       0x5c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08006308                __i2b
  .text.__multiply
-                0x0800644c      0x16c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x0800644c                __multiply
+                0x08006364      0x16c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08006364                __multiply
  .text.__pow5mult
-                0x080065b8       0xc0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x080065b8                __pow5mult
+                0x080064d0       0xc0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x080064d0                __pow5mult
  .text.__lshift
-                0x08006678       0xe8 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08006678                __lshift
- .text.__mcmp   0x08006760       0x44 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08006760                __mcmp
- .text.__mdiff  0x080067a4      0x174 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x080067a4                __mdiff
- .text.__d2b    0x08006918       0xbc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08006918                __d2b
+                0x08006590       0xe8 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08006590                __lshift
+ .text.__mcmp   0x08006678       0x44 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08006678                __mcmp
+ .text.__mdiff  0x080066bc      0x174 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x080066bc                __mdiff
+ .text.__d2b    0x08006830       0xbc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08006830                __d2b
  .text.__ascii_wctomb
-                0x080069d4       0x1c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wctomb_r.o)
-                0x080069d4                __ascii_wctomb
+                0x080068ec       0x1c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wctomb_r.o)
+                0x080068ec                __ascii_wctomb
  .text._wcrtomb_r
-                0x080069f0       0x4c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wcrtomb.o)
-                0x080069f0                _wcrtomb_r
+                0x08006908       0x4c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wcrtomb.o)
+                0x08006908                _wcrtomb_r
  .text._wcsrtombs_r
-                0x08006a3c       0x18 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wcsrtombs.o)
-                0x08006a3c                _wcsrtombs_r
+                0x08006954       0x18 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wcsrtombs.o)
+                0x08006954                _wcsrtombs_r
  .text.__ssputs_r
-                0x08006a54       0xc0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-ssputs_r.o)
-                0x08006a54                __ssputs_r
- .text.memmove  0x08006b14      0x130 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memmove.o)
-                0x08006b14                memmove
- .text.__errno  0x08006c44        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-errno.o)
-                0x08006c44                __errno
+                0x0800696c       0xc0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-ssputs_r.o)
+                0x0800696c                __ssputs_r
+ .text.memmove  0x08006a2c      0x130 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memmove.o)
+                0x08006a2c                memmove
+ .text.__errno  0x08006b5c        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-errno.o)
+                0x08006b5c                __errno
  .text.__assert_func
-                0x08006c50       0x40 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-assert.o)
-                0x08006c50                __assert_func
+                0x08006b68       0x40 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-assert.o)
+                0x08006b68                __assert_func
  .text._calloc_r
-                0x08006c90       0x6c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-callocr.o)
-                0x08006c90                _calloc_r
+                0x08006ba8       0x6c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-callocr.o)
+                0x08006ba8                _calloc_r
  .text._realloc_r
-                0x08006cfc      0x348 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-reallocr.o)
-                0x08006cfc                _realloc_r
+                0x08006c14      0x348 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-reallocr.o)
+                0x08006c14                _realloc_r
  .text._wcsnrtombs_l
-                0x08007044       0xf0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wcsnrtombs.o)
-                0x08007044                _wcsnrtombs_l
+                0x08006f5c       0xf0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wcsnrtombs.o)
+                0x08006f5c                _wcsnrtombs_l
  .text._wcsnrtombs_r
-                0x08007134       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wcsnrtombs.o)
-                0x08007134                _wcsnrtombs_r
+                0x0800704c       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wcsnrtombs.o)
+                0x0800704c                _wcsnrtombs_r
  .text.fiprintf
-                0x08007158       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fiprintf.o)
-                0x08007158                fiprintf
+                0x08007070       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fiprintf.o)
+                0x08007070                fiprintf
  .text._vfiprintf_r
-                0x08007180     0x1288 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
-                0x08007180                _vfiprintf_r
+                0x08007098     0x1288 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
+                0x08007098                _vfiprintf_r
  .text.__sbprintf
-                0x08008408       0x84 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
+                0x08008320       0x84 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
  .text.__sprint_r
-                0x0800848c       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sprint_r.o)
-                0x0800848c                __sprint_r
+                0x080083a4       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sprint_r.o)
+                0x080083a4                __sprint_r
  .text.__sfvwrite_r
-                0x080084ac      0x2ec C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fvwrite.o)
-                0x080084ac                __sfvwrite_r
+                0x080083c4      0x2ec C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fvwrite.o)
+                0x080083c4                __sfvwrite_r
  .text.__swsetup_r
-                0x08008798       0xfc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wsetup.o)
-                0x08008798                __swsetup_r
- .text.abort    0x08008894       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-abort.o)
-                0x08008894                abort
+                0x080086b0       0xfc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wsetup.o)
+                0x080086b0                __swsetup_r
+ .text.abort    0x080087ac       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-abort.o)
+                0x080087ac                abort
  .text.__smakebuf_r
-                0x080088a4       0xd0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-makebuf.o)
-                0x080088a4                __smakebuf_r
- .text.raise    0x08008974       0x58 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signal.o)
-                0x08008974                raise
+                0x080087bc       0xd0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-makebuf.o)
+                0x080087bc                __smakebuf_r
+ .text.raise    0x0800888c       0x58 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signal.o)
+                0x0800888c                raise
  .text._fstat_r
-                0x080089cc       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fstatr.o)
-                0x080089cc                _fstat_r
+                0x080088e4       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fstatr.o)
+                0x080088e4                _fstat_r
  .text._isatty_r
-                0x080089f8       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-isattyr.o)
-                0x080089f8                _isatty_r
- .text._kill_r  0x08008a1c       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signalr.o)
-                0x08008a1c                _kill_r
+                0x08008910       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-isattyr.o)
+                0x08008910                _isatty_r
+ .text._kill_r  0x08008934       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signalr.o)
+                0x08008934                _kill_r
  .text._getpid_r
-                0x08008a48        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signalr.o)
-                0x08008a48                _getpid_r
- .text._close   0x08008a4c       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(close.o)
-                0x08008a4c                _close
- .text._fstat   0x08008a5c       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(fstat.o)
-                0x08008a5c                _fstat
- .text._getpid  0x08008a6c       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(getpid.o)
-                0x08008a6c                _getpid
- .text._isatty  0x08008a7c       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(isatty.o)
-                0x08008a7c                _isatty
- .text._kill    0x08008a8c       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(kill.o)
-                0x08008a8c                _kill
- .text._lseek   0x08008a9c       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(lseek.o)
-                0x08008a9c                _lseek
- .text._read    0x08008aac       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(read.o)
-                0x08008aac                _read
- .text._sbrk    0x08008abc       0x1c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
-                0x08008abc                _sbrk
- .text._write   0x08008ad8       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(write.o)
-                0x08008ad8                _write
- .text._exit    0x08008ae8        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
-                0x08008ae8                _exit
+                0x08008960        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signalr.o)
+                0x08008960                _getpid_r
+ .text._close   0x08008964       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(close.o)
+                0x08008964                _close
+ .text._fstat   0x08008974       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(fstat.o)
+                0x08008974                _fstat
+ .text._getpid  0x08008984       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(getpid.o)
+                0x08008984                _getpid
+ .text._isatty  0x08008994       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(isatty.o)
+                0x08008994                _isatty
+ .text._kill    0x080089a4       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(kill.o)
+                0x080089a4                _kill
+ .text._lseek   0x080089b4       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(lseek.o)
+                0x080089b4                _lseek
+ .text._read    0x080089c4       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(read.o)
+                0x080089c4                _read
+ .text._sbrk    0x080089d4       0x1c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
+                0x080089d4                _sbrk
+ .text._write   0x080089f0       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(write.o)
+                0x080089f0                _write
+ .text._exit    0x08008a00        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
+                0x08008a00                _exit
  *(.glue_7)
- .glue_7        0x08008aec        0x0 linker stubs
+ .glue_7        0x08008a04        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08008aec        0x0 linker stubs
+ .glue_7t       0x08008a04        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08008aec        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x08008a04        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x08008aec        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x08008aec                _init
- .init          0x08008af0        0x8 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x08008a04        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x08008a04                _init
+ .init          0x08008a08        0x8 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x08008af8        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x08008af8                _fini
- .fini          0x08008afc        0x8 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtn.o
-                0x08008b04                        . = ALIGN (0x4)
-                0x08008b04                        _etext = .
+ .fini          0x08008a10        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x08008a10                _fini
+ .fini          0x08008a14        0x8 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x08008a1c                        . = ALIGN (0x4)
+                0x08008a1c                        _etext = .
 
-.vfp11_veneer   0x08008b04        0x0
- .vfp11_veneer  0x08008b04        0x0 linker stubs
+.vfp11_veneer   0x08008a1c        0x0
+ .vfp11_veneer  0x08008a1c        0x0 linker stubs
 
-.v4_bx          0x08008b04        0x0
- .v4_bx         0x08008b04        0x0 linker stubs
+.v4_bx          0x08008a1c        0x0
+ .v4_bx         0x08008a1c        0x0 linker stubs
 
-.iplt           0x08008b04        0x0
- .iplt          0x08008b04        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x08008a1c        0x0
+ .iplt          0x08008a1c        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x08008b08      0x42c
-                0x08008b08                        . = ALIGN (0x4)
+.rodata         0x08008a20      0x41c
+                0x08008a20                        . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x08008b08        0x9 Build/main.o
- *fill*         0x08008b11        0x3 
- .rodata        0x08008b14       0x17 Build/clock.o
- *fill*         0x08008b2b        0x1 
- .rodata        0x08008b2c        0xa Build/tm1638.o
+ .rodata        0x08008a20        0x9 Build/main.o
+ *fill*         0x08008a29        0x3 
+ .rodata        0x08008a2c       0x17 Build/clock.o
  *(.rodata*)
- *fill*         0x08008b36        0x2 
+ *fill*         0x08008a43        0x1 
  .rodata.AHBPrescTable
-                0x08008b38       0x10 Build/system_stm32f4xx.o
-                0x08008b38                AHBPrescTable
+                0x08008a44       0x10 Build/system_stm32f4xx.o
+                0x08008a44                AHBPrescTable
  .rodata._svfprintf_r.str1.4
-                0x08008b48      0x1a7 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-svfprintf.o)
+                0x08008a54      0x1a7 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-svfprintf.o)
                                  0x42 (size before relaxing)
- *fill*         0x08008cef        0x1 
+ *fill*         0x08008bfb        0x1 
  .rodata.zeroes.0
-                0x08008cf0       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-svfprintf.o)
+                0x08008bfc       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-svfprintf.o)
  .rodata.blanks.1
-                0x08008d00       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-svfprintf.o)
+                0x08008c0c       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-svfprintf.o)
  .rodata.str1.4
-                0x08008d10       0x4c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-locale.o)
+                0x08008c1c       0x4c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-locale.o)
  .rodata._dtoa_r.str1.4
-                0x08008d10       0x81 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
+                0x08008c1c       0x81 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
  .rodata.__multadd.str1.4
-                0x08008d10       0x6e C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
- .rodata.p05.0  0x08008d10        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
- *fill*         0x08008d1c        0x4 
+                0x08008c1c       0x6e C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+ .rodata.p05.0  0x08008c1c        0xc C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
  .rodata.__mprec_bigtens
-                0x08008d20       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08008d20                __mprec_bigtens
+                0x08008c28       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08008c28                __mprec_bigtens
  .rodata.__mprec_tens
-                0x08008d48       0xc8 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
-                0x08008d48                __mprec_tens
+                0x08008c50       0xc8 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x08008c50                __mprec_tens
  .rodata._ctype_
-                0x08008e10      0x101 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-ctype_.o)
-                0x08008e10                _ctype_
+                0x08008d18      0x101 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-ctype_.o)
+                0x08008d18                _ctype_
  .rodata.__assert_func.str1.4
-                0x08008f11       0x43 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-assert.o)
+                0x08008e19       0x43 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-assert.o)
  .rodata._vfiprintf_r.str1.4
-                0x08008f11       0x2f C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
- *fill*         0x08008f11        0x3 
+                0x08008e19       0x2f C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
+ *fill*         0x08008e19        0x3 
  .rodata.zeroes.0
-                0x08008f14       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
+                0x08008e1c       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
  .rodata.blanks.1
-                0x08008f24       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
-                0x08008f34                        . = ALIGN (0x4)
+                0x08008e2c       0x10 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
+                0x08008e3c                        . = ALIGN (0x4)
 
-.ARM.extab      0x08008f34        0x0
-                0x08008f34                        . = ALIGN (0x4)
+.ARM.extab      0x08008e3c        0x0
+                0x08008e3c                        . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08008f34                        . = ALIGN (0x4)
+                0x08008e3c                        . = ALIGN (0x4)
 
-.ARM            0x08008f34        0x8
-                0x08008f34                        . = ALIGN (0x4)
-                0x08008f34                        __exidx_start = .
+.ARM            0x08008e3c        0x8
+                0x08008e3c                        . = ALIGN (0x4)
+                0x08008e3c                        __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x08008f34        0x8 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memchr.o)
- .ARM.exidx     0x08008f3c        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-strlen.o)
+ .ARM.exidx     0x08008e3c        0x8 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memchr.o)
+ .ARM.exidx     0x08008e44        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-strlen.o)
                                   0x8 (size before relaxing)
- .ARM.exidx     0x08008f3c        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memcpy.o)
+ .ARM.exidx     0x08008e44        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memcpy.o)
                                   0x8 (size before relaxing)
-                0x08008f3c                        __exidx_end = .
-                0x08008f3c                        . = ALIGN (0x4)
+                0x08008e44                        __exidx_end = .
+                0x08008e44                        . = ALIGN (0x4)
 
-.preinit_array  0x08008f3c        0x0
-                0x08008f3c                        . = ALIGN (0x4)
-                0x08008f3c                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08008e44        0x0
+                0x08008e44                        . = ALIGN (0x4)
+                0x08008e44                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08008f3c                        PROVIDE (__preinit_array_end = .)
-                0x08008f3c                        . = ALIGN (0x4)
+                0x08008e44                        PROVIDE (__preinit_array_end = .)
+                0x08008e44                        . = ALIGN (0x4)
 
-.init_array     0x08008f3c        0x8
-                0x08008f3c                        . = ALIGN (0x4)
-                0x08008f3c                        PROVIDE (__init_array_start = .)
+.init_array     0x08008e44        0x8
+                0x08008e44                        . = ALIGN (0x4)
+                0x08008e44                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x08008f3c        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-__call_atexit.o)
+                0x08008e44        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x08008f40        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x08008f44                        PROVIDE (__init_array_end = .)
-                0x08008f44                        . = ALIGN (0x4)
+ .init_array    0x08008e48        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x08008e4c                        PROVIDE (__init_array_end = .)
+                0x08008e4c                        . = ALIGN (0x4)
 
-.fini_array     0x08008f44        0x4
-                0x08008f44                        . = ALIGN (0x4)
-                0x08008f44                        PROVIDE (__fini_array_start = .)
+.fini_array     0x08008e4c        0x4
+                0x08008e4c                        . = ALIGN (0x4)
+                0x08008e4c                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08008f44        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x08008f48                        PROVIDE (__fini_array_end = .)
-                0x08008f48                        . = ALIGN (0x4)
-                0x08008f48                        _sidata = LOADADDR (.data)
+ .fini_array    0x08008e4c        0x4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x08008e50                        PROVIDE (__fini_array_end = .)
+                0x08008e50                        . = ALIGN (0x4)
+                0x08008e50                        _sidata = LOADADDR (.data)
 
-.rel.dyn        0x08008f48        0x0
- .rel.iplt      0x08008f48        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x08008e50        0x0
+ .rel.iplt      0x08008e50        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.data           0x20000000      0x884 load address 0x08008f48
+.data           0x20000000      0x884 load address 0x08008e50
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -2565,17 +2458,17 @@ LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib
                 0x20000884                        _edata = .
 
 .tm_clone_table
-                0x20000884        0x0 load address 0x080097cc
+                0x20000884        0x0 load address 0x080096d4
  .tm_clone_table
                 0x20000884        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  .tm_clone_table
                 0x20000884        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtend.o
 
-.igot.plt       0x20000884        0x0 load address 0x080097cc
+.igot.plt       0x20000884        0x0 load address 0x080096d4
  .igot.plt      0x20000884        0x0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 0x20000884                        . = ALIGN (0x4)
 
-.bss            0x20000884      0x454 load address 0x080097cc
+.bss            0x20000884      0x454 load address 0x080096d4
                 0x20000884                        _sbss = .
                 0x20000884                        __bss_start__ = _sbss
  *(.bss)
@@ -2643,7 +2536,7 @@ LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib
                 0x20000cd8                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20000cd8      0x600 load address 0x080097cc
+                0x20000cd8      0x600 load address 0x080096d4
                 0x20000cd8                        . = ALIGN (0x8)
                 0x20000cd8                        PROVIDE (end = .)
                 [!provide]                        PROVIDE (_end = .)
@@ -2686,186 +2579,183 @@ LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib
  .ARM.attributes
                 0x0000022a       0x34 Build/ring_buffer.o
  .ARM.attributes
-                0x0000025e       0x34 Build/st7735.o
+                0x0000025e       0x34 Build/st7796.o
  .ARM.attributes
-                0x00000292       0x34 Build/st7735_gfx.o
+                0x00000292       0x34 Build/st7796_gfx.o
  .ARM.attributes
-                0x000002c6       0x34 Build/tm1638.o
+                0x000002c6       0x21 Build/startup_stm32f401rctx.o
  .ARM.attributes
-                0x000002fa       0x21 Build/startup_stm32f401rctx.o
+                0x000002e7       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
  .ARM.attributes
-                0x0000031b       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+                0x0000031b       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fwalk.o)
  .ARM.attributes
-                0x0000034f       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fwalk.o)
+                0x0000034f       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sprintf.o)
  .ARM.attributes
-                0x00000383       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sprintf.o)
+                0x00000383       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
  .ARM.attributes
-                0x000003b7       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+                0x000003b7       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memset.o)
  .ARM.attributes
-                0x000003eb       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memset.o)
+                0x000003eb       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-closer.o)
  .ARM.attributes
-                0x0000041f       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-closer.o)
+                0x0000041f       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-reent.o)
  .ARM.attributes
-                0x00000453       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-reent.o)
+                0x00000453       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-impure.o)
  .ARM.attributes
-                0x00000487       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-impure.o)
+                0x00000487       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-lseekr.o)
  .ARM.attributes
-                0x000004bb       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-lseekr.o)
+                0x000004bb       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-readr.o)
  .ARM.attributes
-                0x000004ef       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-readr.o)
+                0x000004ef       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-writer.o)
  .ARM.attributes
-                0x00000523       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-writer.o)
+                0x00000523       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-init.o)
  .ARM.attributes
-                0x00000557       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-init.o)
+                0x00000557       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
  .ARM.attributes
-                0x0000058b       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+                0x0000058b       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-__call_atexit.o)
  .ARM.attributes
-                0x000005bf       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-__call_atexit.o)
+                0x000005bf       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-atexit.o)
  .ARM.attributes
-                0x000005f3       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-atexit.o)
+                0x000005f3       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
  .ARM.attributes
-                0x00000627       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
+                0x00000627       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
  .ARM.attributes
-                0x0000065b       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+                0x0000065b       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o)
  .ARM.attributes
-                0x0000068f       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o)
+                0x0000068f       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-svfprintf.o)
  .ARM.attributes
-                0x000006c3       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-svfprintf.o)
+                0x000006c3       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-ssprint_r.o)
  .ARM.attributes
-                0x000006f7       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-ssprint_r.o)
+                0x000006f7       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
  .ARM.attributes
-                0x0000072b       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
+                0x0000072b       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
  .ARM.attributes
-                0x0000075f       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+                0x0000075f       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-strncpy.o)
  .ARM.attributes
-                0x00000793       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-strncpy.o)
+                0x00000793       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-locale.o)
  .ARM.attributes
-                0x000007c7       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-locale.o)
+                0x000007c7       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-localeconv.o)
  .ARM.attributes
-                0x000007fb       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-localeconv.o)
+                0x000007fb       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sbrkr.o)
  .ARM.attributes
-                0x0000082f       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sbrkr.o)
+                0x0000082f       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fini.o)
  .ARM.attributes
-                0x00000863       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fini.o)
+                0x00000863       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sysconf.o)
  .ARM.attributes
-                0x00000897       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sysconf.o)
+                0x00000897       0x1c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memchr.o)
  .ARM.attributes
-                0x000008cb       0x1c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memchr.o)
+                0x000008b3       0x1c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-strlen.o)
  .ARM.attributes
-                0x000008e7       0x1c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-strlen.o)
+                0x000008cf       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libm_a-s_frexp.o)
  .ARM.attributes
-                0x00000903       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libm_a-s_frexp.o)
+                0x00000903       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-__atexit.o)
  .ARM.attributes
-                0x00000937       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-__atexit.o)
+                0x00000937       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
  .ARM.attributes
-                0x0000096b       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
+                0x0000096b       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mbtowc_r.o)
  .ARM.attributes
-                0x0000099f       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mbtowc_r.o)
+                0x0000099f       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
  .ARM.attributes
-                0x000009d3       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+                0x000009d3       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wctomb_r.o)
  .ARM.attributes
-                0x00000a07       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wctomb_r.o)
+                0x00000a07       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wcrtomb.o)
  .ARM.attributes
-                0x00000a3b       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wcrtomb.o)
+                0x00000a3b       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wcsrtombs.o)
  .ARM.attributes
-                0x00000a6f       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wcsrtombs.o)
+                0x00000a6f       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-ctype_.o)
  .ARM.attributes
-                0x00000aa3       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-ctype_.o)
+                0x00000aa3       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-ssputs_r.o)
  .ARM.attributes
-                0x00000ad7       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-ssputs_r.o)
+                0x00000ad7       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memmove.o)
  .ARM.attributes
-                0x00000b0b       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memmove.o)
+                0x00000b0b       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-errno.o)
  .ARM.attributes
-                0x00000b3f       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-errno.o)
+                0x00000b3f       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memcpy.o)
  .ARM.attributes
-                0x00000b73       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memcpy.o)
+                0x00000b5f       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-assert.o)
  .ARM.attributes
-                0x00000b93       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-assert.o)
+                0x00000b93       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-callocr.o)
  .ARM.attributes
-                0x00000bc7       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-callocr.o)
+                0x00000bc7       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-reallocr.o)
  .ARM.attributes
-                0x00000bfb       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-reallocr.o)
+                0x00000bfb       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wcsnrtombs.o)
  .ARM.attributes
-                0x00000c2f       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wcsnrtombs.o)
+                0x00000c2f       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fiprintf.o)
  .ARM.attributes
-                0x00000c63       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fiprintf.o)
+                0x00000c63       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
  .ARM.attributes
-                0x00000c97       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
+                0x00000c97       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sprint_r.o)
  .ARM.attributes
-                0x00000ccb       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sprint_r.o)
+                0x00000ccb       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fvwrite.o)
  .ARM.attributes
-                0x00000cff       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fvwrite.o)
+                0x00000cff       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wsetup.o)
  .ARM.attributes
-                0x00000d33       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wsetup.o)
+                0x00000d33       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-abort.o)
  .ARM.attributes
-                0x00000d67       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-abort.o)
+                0x00000d67       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-makebuf.o)
  .ARM.attributes
-                0x00000d9b       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-makebuf.o)
+                0x00000d9b       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signal.o)
  .ARM.attributes
-                0x00000dcf       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signal.o)
+                0x00000dcf       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fstatr.o)
  .ARM.attributes
-                0x00000e03       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fstatr.o)
+                0x00000e03       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-isattyr.o)
  .ARM.attributes
-                0x00000e37       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-isattyr.o)
+                0x00000e37       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signalr.o)
  .ARM.attributes
-                0x00000e6b       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signalr.o)
+                0x00000e6b       0x22 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
-                0x00000e9f       0x22 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+                0x00000e8d       0x22 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldivdf3.o)
  .ARM.attributes
-                0x00000ec1       0x22 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldivdf3.o)
+                0x00000eaf       0x22 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_cmpdf2.o)
  .ARM.attributes
-                0x00000ee3       0x22 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_cmpdf2.o)
+                0x00000ed1       0x22 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_unorddf2.o)
  .ARM.attributes
-                0x00000f05       0x22 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_unorddf2.o)
+                0x00000ef3       0x22 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_fixdfsi.o)
  .ARM.attributes
-                0x00000f27       0x22 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_fixdfsi.o)
+                0x00000f15       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(close.o)
  .ARM.attributes
-                0x00000f49       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(close.o)
+                0x00000f49       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(fstat.o)
  .ARM.attributes
-                0x00000f7d       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(fstat.o)
+                0x00000f7d       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(getpid.o)
  .ARM.attributes
-                0x00000fb1       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(getpid.o)
+                0x00000fb1       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(isatty.o)
  .ARM.attributes
-                0x00000fe5       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(isatty.o)
+                0x00000fe5       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(kill.o)
  .ARM.attributes
-                0x00001019       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(kill.o)
+                0x00001019       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(lseek.o)
  .ARM.attributes
-                0x0000104d       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(lseek.o)
+                0x0000104d       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(read.o)
  .ARM.attributes
-                0x00001081       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(read.o)
+                0x00001081       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
  .ARM.attributes
-                0x000010b5       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
+                0x000010b5       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(write.o)
  .ARM.attributes
-                0x000010e9       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(write.o)
+                0x000010e9       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
  .ARM.attributes
-                0x0000111d       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
+                0x0000111d       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtend.o
  .ARM.attributes
-                0x00001151       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtend.o
- .ARM.attributes
-                0x00001185       0x22 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x00001151       0x22 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard/crtn.o
 OUTPUT(Build/main.elf elf32-littlearm)
 LOAD linker stubs
 LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a
 LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
 LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a
 
-.debug_info     0x00000000     0x3628
- .debug_info    0x00000000      0x319 Build/main.o
- .debug_info    0x00000319      0x562 Build/system_stm32f4xx.o
- .debug_info    0x0000087b      0x2f6 Build/gpio.o
- .debug_info    0x00000b71      0x2ed Build/rcc.o
- .debug_info    0x00000e5e      0x581 Build/rtc.o
- .debug_info    0x000013df      0x3b6 Build/spi.o
- .debug_info    0x00001795      0x342 Build/timer.o
- .debug_info    0x00001ad7      0x88c Build/uart.o
- .debug_info    0x00002363      0x27a Build/clock.o
- .debug_info    0x000025dd      0x1be Build/ring_buffer.o
- .debug_info    0x0000279b      0x438 Build/st7735.o
- .debug_info    0x00002bd3      0x5bf Build/st7735_gfx.o
- .debug_info    0x00003192      0x466 Build/tm1638.o
- .debug_info    0x000035f8       0x30 Build/startup_stm32f401rctx.o
+.debug_info     0x00000000     0x30a2
+ .debug_info    0x00000000      0x30c Build/main.o
+ .debug_info    0x0000030c      0x562 Build/system_stm32f4xx.o
+ .debug_info    0x0000086e      0x2f6 Build/gpio.o
+ .debug_info    0x00000b64      0x2ed Build/rcc.o
+ .debug_info    0x00000e51      0x581 Build/rtc.o
+ .debug_info    0x000013d2      0x3b6 Build/spi.o
+ .debug_info    0x00001788      0x342 Build/timer.o
+ .debug_info    0x00001aca      0x88c Build/uart.o
+ .debug_info    0x00002356      0x167 Build/clock.o
+ .debug_info    0x000024bd      0x1be Build/ring_buffer.o
+ .debug_info    0x0000267b      0x438 Build/st7796.o
+ .debug_info    0x00002ab3      0x5bf Build/st7796_gfx.o
+ .debug_info    0x00003072       0x30 Build/startup_stm32f401rctx.o
 
-.debug_abbrev   0x00000000     0x10c8
+.debug_abbrev   0x00000000      0xeee
  .debug_abbrev  0x00000000      0x18a Build/main.o
  .debug_abbrev  0x0000018a      0x12a Build/system_stm32f4xx.o
  .debug_abbrev  0x000002b4       0xb3 Build/gpio.o
@@ -2874,14 +2764,13 @@ LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib
  .debug_abbrev  0x000005b8       0xe1 Build/spi.o
  .debug_abbrev  0x00000699      0x162 Build/timer.o
  .debug_abbrev  0x000007fb      0x232 Build/uart.o
- .debug_abbrev  0x00000a2d      0x15d Build/clock.o
- .debug_abbrev  0x00000b8a       0xca Build/ring_buffer.o
- .debug_abbrev  0x00000c54      0x141 Build/st7735.o
- .debug_abbrev  0x00000d95      0x199 Build/st7735_gfx.o
- .debug_abbrev  0x00000f2e      0x176 Build/tm1638.o
- .debug_abbrev  0x000010a4       0x24 Build/startup_stm32f401rctx.o
+ .debug_abbrev  0x00000a2d       0xf9 Build/clock.o
+ .debug_abbrev  0x00000b26       0xca Build/ring_buffer.o
+ .debug_abbrev  0x00000bf0      0x141 Build/st7796.o
+ .debug_abbrev  0x00000d31      0x199 Build/st7796_gfx.o
+ .debug_abbrev  0x00000eca       0x24 Build/startup_stm32f401rctx.o
 
-.debug_aranges  0x00000000      0x308
+.debug_aranges  0x00000000      0x2c0
  .debug_aranges
                 0x00000000       0x28 Build/main.o
  .debug_aranges
@@ -2903,16 +2792,14 @@ LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib
  .debug_aranges
                 0x000001b0       0x30 Build/ring_buffer.o
  .debug_aranges
-                0x000001e0       0x68 Build/st7735.o
+                0x000001e0       0x68 Build/st7796.o
  .debug_aranges
-                0x00000248       0x50 Build/st7735_gfx.o
+                0x00000248       0x50 Build/st7796_gfx.o
  .debug_aranges
-                0x00000298       0x48 Build/tm1638.o
- .debug_aranges
-                0x000002e0       0x28 Build/startup_stm32f401rctx.o
+                0x00000298       0x28 Build/startup_stm32f401rctx.o
 
 .debug_rnglists
-                0x00000000      0x21d
+                0x00000000      0x1ea
  .debug_rnglists
                 0x00000000       0x19 Build/main.o
  .debug_rnglists
@@ -2930,107 +2817,102 @@ LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib
  .debug_rnglists
                 0x000000d3       0x38 Build/uart.o
  .debug_rnglists
-                0x0000010b       0x14 Build/clock.o
+                0x0000010b       0x13 Build/clock.o
  .debug_rnglists
-                0x0000011f       0x1f Build/ring_buffer.o
+                0x0000011e       0x1f Build/ring_buffer.o
  .debug_rnglists
-                0x0000013e       0x4a Build/st7735.o
+                0x0000013d       0x4b Build/st7796.o
  .debug_rnglists
-                0x00000188       0x49 Build/st7735_gfx.o
+                0x00000188       0x49 Build/st7796_gfx.o
  .debug_rnglists
-                0x000001d1       0x33 Build/tm1638.o
- .debug_rnglists
-                0x00000204       0x19 Build/startup_stm32f401rctx.o
+                0x000001d1       0x19 Build/startup_stm32f401rctx.o
 
-.debug_macro    0x00000000    0x102b9
- .debug_macro   0x00000000      0x297 Build/main.o
- .debug_macro   0x00000297      0xacc Build/main.o
- .debug_macro   0x00000d63       0x16 Build/main.o
- .debug_macro   0x00000d79       0x22 Build/main.o
- .debug_macro   0x00000d9b       0x8e Build/main.o
- .debug_macro   0x00000e29       0x51 Build/main.o
- .debug_macro   0x00000e7a      0x103 Build/main.o
- .debug_macro   0x00000f7d       0x6a Build/main.o
- .debug_macro   0x00000fe7      0x1df Build/main.o
- .debug_macro   0x000011c6       0x61 Build/main.o
- .debug_macro   0x00001227       0x2a Build/main.o
- .debug_macro   0x00001251       0x43 Build/main.o
- .debug_macro   0x00001294       0x34 Build/main.o
- .debug_macro   0x000012c8       0x16 Build/main.o
- .debug_macro   0x000012de       0x9e Build/main.o
- .debug_macro   0x0000137c      0x364 Build/main.o
- .debug_macro   0x000016e0      0x112 Build/main.o
- .debug_macro   0x000017f2       0x10 Build/main.o
- .debug_macro   0x00001802       0x16 Build/main.o
- .debug_macro   0x00001818       0x4a Build/main.o
- .debug_macro   0x00001862       0x34 Build/main.o
- .debug_macro   0x00001896       0x10 Build/main.o
- .debug_macro   0x000018a6       0x58 Build/main.o
- .debug_macro   0x000018fe       0x8e Build/main.o
- .debug_macro   0x0000198c       0x1c Build/main.o
- .debug_macro   0x000019a8      0x17e Build/main.o
- .debug_macro   0x00001b26       0x16 Build/main.o
- .debug_macro   0x00001b3c       0x16 Build/main.o
- .debug_macro   0x00001b52      0x146 Build/main.o
- .debug_macro   0x00001c98       0x16 Build/main.o
- .debug_macro   0x00001cae       0x3c Build/main.o
- .debug_macro   0x00001cea       0x16 Build/main.o
- .debug_macro   0x00001d00       0x29 Build/main.o
- .debug_macro   0x00001d29       0x16 Build/main.o
- .debug_macro   0x00001d3f       0x2e Build/main.o
- .debug_macro   0x00001d6d       0x28 Build/main.o
- .debug_macro   0x00001d95       0x1c Build/main.o
- .debug_macro   0x00001db1       0x22 Build/main.o
- .debug_macro   0x00001dd3       0xfb Build/main.o
- .debug_macro   0x00001ece     0x1011 Build/main.o
- .debug_macro   0x00002edf      0x11f Build/main.o
- .debug_macro   0x00002ffe     0xb881 Build/main.o
- .debug_macro   0x0000e87f       0x6d Build/main.o
- .debug_macro   0x0000e8ec       0xe0 Build/system_stm32f4xx.o
- .debug_macro   0x0000e9cc      0x233 Build/gpio.o
- .debug_macro   0x0000ebff      0x233 Build/rcc.o
- .debug_macro   0x0000ee32      0x233 Build/rtc.o
- .debug_macro   0x0000f065      0x23f Build/spi.o
- .debug_macro   0x0000f2a4      0x229 Build/timer.o
- .debug_macro   0x0000f4cd      0x249 Build/uart.o
- .debug_macro   0x0000f716      0x25b Build/clock.o
- .debug_macro   0x0000f971      0x233 Build/ring_buffer.o
- .debug_macro   0x0000fba4      0x24f Build/st7735.o
- .debug_macro   0x0000fdf3      0x269 Build/st7735_gfx.o
- .debug_macro   0x0001005c      0x25d Build/tm1638.o
+.debug_macro    0x00000000    0x1004c
+ .debug_macro   0x00000000      0x291 Build/main.o
+ .debug_macro   0x00000291      0xacc Build/main.o
+ .debug_macro   0x00000d5d       0x16 Build/main.o
+ .debug_macro   0x00000d73       0x22 Build/main.o
+ .debug_macro   0x00000d95       0x8e Build/main.o
+ .debug_macro   0x00000e23       0x51 Build/main.o
+ .debug_macro   0x00000e74      0x103 Build/main.o
+ .debug_macro   0x00000f77       0x6a Build/main.o
+ .debug_macro   0x00000fe1      0x1df Build/main.o
+ .debug_macro   0x000011c0       0x61 Build/main.o
+ .debug_macro   0x00001221       0x2a Build/main.o
+ .debug_macro   0x0000124b       0x43 Build/main.o
+ .debug_macro   0x0000128e       0x34 Build/main.o
+ .debug_macro   0x000012c2       0x16 Build/main.o
+ .debug_macro   0x000012d8       0x9e Build/main.o
+ .debug_macro   0x00001376      0x364 Build/main.o
+ .debug_macro   0x000016da      0x112 Build/main.o
+ .debug_macro   0x000017ec       0x10 Build/main.o
+ .debug_macro   0x000017fc       0x16 Build/main.o
+ .debug_macro   0x00001812       0x4a Build/main.o
+ .debug_macro   0x0000185c       0x34 Build/main.o
+ .debug_macro   0x00001890       0x10 Build/main.o
+ .debug_macro   0x000018a0       0x58 Build/main.o
+ .debug_macro   0x000018f8       0x8e Build/main.o
+ .debug_macro   0x00001986       0x1c Build/main.o
+ .debug_macro   0x000019a2      0x17e Build/main.o
+ .debug_macro   0x00001b20       0x16 Build/main.o
+ .debug_macro   0x00001b36       0x16 Build/main.o
+ .debug_macro   0x00001b4c      0x146 Build/main.o
+ .debug_macro   0x00001c92       0x16 Build/main.o
+ .debug_macro   0x00001ca8       0x3c Build/main.o
+ .debug_macro   0x00001ce4       0x16 Build/main.o
+ .debug_macro   0x00001cfa       0x29 Build/main.o
+ .debug_macro   0x00001d23       0x16 Build/main.o
+ .debug_macro   0x00001d39       0x2e Build/main.o
+ .debug_macro   0x00001d67       0x28 Build/main.o
+ .debug_macro   0x00001d8f       0x1c Build/main.o
+ .debug_macro   0x00001dab       0x22 Build/main.o
+ .debug_macro   0x00001dcd       0xfb Build/main.o
+ .debug_macro   0x00001ec8     0x1011 Build/main.o
+ .debug_macro   0x00002ed9      0x11f Build/main.o
+ .debug_macro   0x00002ff8     0xb881 Build/main.o
+ .debug_macro   0x0000e879       0x6d Build/main.o
+ .debug_macro   0x0000e8e6       0xe0 Build/system_stm32f4xx.o
+ .debug_macro   0x0000e9c6      0x233 Build/gpio.o
+ .debug_macro   0x0000ebf9      0x233 Build/rcc.o
+ .debug_macro   0x0000ee2c      0x233 Build/rtc.o
+ .debug_macro   0x0000f05f      0x23f Build/spi.o
+ .debug_macro   0x0000f29e      0x229 Build/timer.o
+ .debug_macro   0x0000f4c7      0x249 Build/uart.o
+ .debug_macro   0x0000f710      0x251 Build/clock.o
+ .debug_macro   0x0000f961      0x233 Build/ring_buffer.o
+ .debug_macro   0x0000fb94      0x24f Build/st7796.o
+ .debug_macro   0x0000fde3      0x269 Build/st7796_gfx.o
 
-.debug_line     0x00000000     0x43f6
- .debug_line    0x00000000      0x4fe Build/main.o
- .debug_line    0x000004fe      0x3a1 Build/system_stm32f4xx.o
- .debug_line    0x0000089f      0x455 Build/gpio.o
- .debug_line    0x00000cf4      0x568 Build/rcc.o
- .debug_line    0x0000125c      0x581 Build/rtc.o
- .debug_line    0x000017dd      0x4f4 Build/spi.o
- .debug_line    0x00001cd1      0x501 Build/timer.o
- .debug_line    0x000021d2      0x591 Build/uart.o
- .debug_line    0x00002763      0x49f Build/clock.o
- .debug_line    0x00002c02      0x4e8 Build/ring_buffer.o
- .debug_line    0x000030ea      0x597 Build/st7735.o
- .debug_line    0x00003681      0x789 Build/st7735_gfx.o
- .debug_line    0x00003e0a      0x576 Build/tm1638.o
- .debug_line    0x00004380       0x76 Build/startup_stm32f401rctx.o
+.debug_line     0x00000000     0x3e8a
+ .debug_line    0x00000000      0x4f1 Build/main.o
+ .debug_line    0x000004f1      0x3a1 Build/system_stm32f4xx.o
+ .debug_line    0x00000892      0x455 Build/gpio.o
+ .debug_line    0x00000ce7      0x568 Build/rcc.o
+ .debug_line    0x0000124f      0x581 Build/rtc.o
+ .debug_line    0x000017d0      0x4f4 Build/spi.o
+ .debug_line    0x00001cc4      0x501 Build/timer.o
+ .debug_line    0x000021c5      0x591 Build/uart.o
+ .debug_line    0x00002756      0x473 Build/clock.o
+ .debug_line    0x00002bc9      0x4e8 Build/ring_buffer.o
+ .debug_line    0x000030b1      0x5da Build/st7796.o
+ .debug_line    0x0000368b      0x789 Build/st7796_gfx.o
+ .debug_line    0x00003e14       0x76 Build/startup_stm32f401rctx.o
 
-.debug_str      0x00000000    0x540ec
- .debug_str     0x00000000    0x540ec Build/main.o
-                              0x53606 (size before relaxing)
- .debug_str     0x000540ec    0x4fa4b Build/system_stm32f4xx.o
- .debug_str     0x000540ec    0x5353d Build/gpio.o
- .debug_str     0x000540ec    0x53578 Build/rcc.o
- .debug_str     0x000540ec    0x53636 Build/rtc.o
- .debug_str     0x000540ec    0x5359e Build/spi.o
- .debug_str     0x000540ec    0x5355f Build/timer.o
- .debug_str     0x000540ec    0x53a60 Build/uart.o
- .debug_str     0x000540ec    0x534d1 Build/clock.o
- .debug_str     0x000540ec    0x53472 Build/ring_buffer.o
- .debug_str     0x000540ec    0x53606 Build/st7735.o
- .debug_str     0x000540ec    0x53640 Build/st7735_gfx.o
- .debug_str     0x000540ec    0x5366e Build/tm1638.o
- .debug_str     0x000540ec       0x65 Build/startup_stm32f401rctx.o
+.debug_str      0x00000000    0x53fa3
+ .debug_str     0x00000000    0x53fa3 Build/main.o
+                              0x535ef (size before relaxing)
+ .debug_str     0x00053fa3    0x4fa4b Build/system_stm32f4xx.o
+ .debug_str     0x00053fa3    0x5353d Build/gpio.o
+ .debug_str     0x00053fa3    0x53578 Build/rcc.o
+ .debug_str     0x00053fa3    0x53636 Build/rtc.o
+ .debug_str     0x00053fa3    0x5359e Build/spi.o
+ .debug_str     0x00053fa3    0x5355f Build/timer.o
+ .debug_str     0x00053fa3    0x53a60 Build/uart.o
+ .debug_str     0x00053fa3    0x53451 Build/clock.o
+ .debug_str     0x00053fa3    0x53472 Build/ring_buffer.o
+ .debug_str     0x00053fa3    0x53606 Build/st7796.o
+ .debug_str     0x00053fa3    0x53640 Build/st7796_gfx.o
+ .debug_str     0x00053fa3       0x65 Build/startup_stm32f401rctx.o
 
 .comment        0x00000000       0x46
  .comment       0x00000000       0x46 Build/main.o
@@ -3044,11 +2926,10 @@ LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib
  .comment       0x00000046       0x47 Build/uart.o
  .comment       0x00000046       0x47 Build/clock.o
  .comment       0x00000046       0x47 Build/ring_buffer.o
- .comment       0x00000046       0x47 Build/st7735.o
- .comment       0x00000046       0x47 Build/st7735_gfx.o
- .comment       0x00000046       0x47 Build/tm1638.o
+ .comment       0x00000046       0x47 Build/st7796.o
+ .comment       0x00000046       0x47 Build/st7796_gfx.o
 
-.debug_frame    0x00000000     0x2098
+.debug_frame    0x00000000     0x1fbc
  .debug_frame   0x00000000       0x4c Build/main.o
  .debug_frame   0x0000004c       0x58 Build/system_stm32f4xx.o
  .debug_frame   0x000000a4       0x30 Build/gpio.o
@@ -3057,83 +2938,82 @@ LOAD C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib
  .debug_frame   0x000001c4       0x58 Build/spi.o
  .debug_frame   0x0000021c       0xdc Build/timer.o
  .debug_frame   0x000002f8      0x118 Build/uart.o
- .debug_frame   0x00000410       0x38 Build/clock.o
- .debug_frame   0x00000448       0x88 Build/ring_buffer.o
- .debug_frame   0x000004d0      0x158 Build/st7735.o
- .debug_frame   0x00000628      0x128 Build/st7735_gfx.o
- .debug_frame   0x00000750       0xd8 Build/tm1638.o
- .debug_frame   0x00000828      0x13c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
- .debug_frame   0x00000964       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fwalk.o)
- .debug_frame   0x00000998       0x78 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sprintf.o)
- .debug_frame   0x00000a10       0x8c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
- .debug_frame   0x00000a9c       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memset.o)
- .debug_frame   0x00000ac8       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-closer.o)
- .debug_frame   0x00000af4       0x3c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-reent.o)
- .debug_frame   0x00000b30       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-lseekr.o)
- .debug_frame   0x00000b5c       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-readr.o)
- .debug_frame   0x00000b88       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-writer.o)
- .debug_frame   0x00000bb4       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-init.o)
- .debug_frame   0x00000be0       0xb0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
- .debug_frame   0x00000c90       0x5c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-__call_atexit.o)
- .debug_frame   0x00000cec       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-atexit.o)
- .debug_frame   0x00000d0c       0x84 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
- .debug_frame   0x00000d90       0x4c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
- .debug_frame   0x00000ddc       0x30 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o)
- .debug_frame   0x00000e0c       0x40 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-svfprintf.o)
- .debug_frame   0x00000e4c       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-ssprint_r.o)
- .debug_frame   0x00000e80       0x3c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
- .debug_frame   0x00000ebc       0x70 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
- .debug_frame   0x00000f2c       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-strncpy.o)
- .debug_frame   0x00000f54       0xec C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-locale.o)
- .debug_frame   0x00001040       0x40 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-localeconv.o)
- .debug_frame   0x00001080       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sbrkr.o)
- .debug_frame   0x000010ac       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fini.o)
- .debug_frame   0x000010e0       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sysconf.o)
- .debug_frame   0x00001108       0x4c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memchr.o)
- .debug_frame   0x00001154       0x30 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-strlen.o)
- .debug_frame   0x00001184       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libm_a-s_frexp.o)
- .debug_frame   0x000011b0       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-__atexit.o)
- .debug_frame   0x000011e4       0x84 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
- .debug_frame   0x00001268      0x130 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mbtowc_r.o)
- .debug_frame   0x00001398      0x288 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
- .debug_frame   0x00001620       0x8c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wctomb_r.o)
- .debug_frame   0x000016ac       0x60 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wcrtomb.o)
- .debug_frame   0x0000170c       0x50 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wcsrtombs.o)
- .debug_frame   0x0000175c       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-ctype_.o)
- .debug_frame   0x0000177c       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-ssputs_r.o)
- .debug_frame   0x000017b0       0x30 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memmove.o)
- .debug_frame   0x000017e0       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-errno.o)
- .debug_frame   0x00001800       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memcpy.o)
- .debug_frame   0x00001828       0x40 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-assert.o)
- .debug_frame   0x00001868       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-callocr.o)
- .debug_frame   0x00001894       0x48 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-reallocr.o)
- .debug_frame   0x000018dc       0x84 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wcsnrtombs.o)
- .debug_frame   0x00001960       0x70 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fiprintf.o)
- .debug_frame   0x000019d0       0x8c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
- .debug_frame   0x00001a5c       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sprint_r.o)
- .debug_frame   0x00001a84       0x60 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fvwrite.o)
- .debug_frame   0x00001ae4       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wsetup.o)
- .debug_frame   0x00001b10       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-abort.o)
- .debug_frame   0x00001b38       0x6c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-makebuf.o)
- .debug_frame   0x00001ba4      0x11c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signal.o)
- .debug_frame   0x00001cc0       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fstatr.o)
- .debug_frame   0x00001cec       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-isattyr.o)
- .debug_frame   0x00001d18       0x3c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signalr.o)
- .debug_frame   0x00001d54       0xac C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x00001e00       0x50 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldivdf3.o)
- .debug_frame   0x00001e50       0xc4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_cmpdf2.o)
- .debug_frame   0x00001f14       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_unorddf2.o)
- .debug_frame   0x00001f34       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_fixdfsi.o)
- .debug_frame   0x00001f58       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(close.o)
- .debug_frame   0x00001f78       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(fstat.o)
- .debug_frame   0x00001f98       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(getpid.o)
- .debug_frame   0x00001fb8       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(isatty.o)
- .debug_frame   0x00001fd8       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(kill.o)
- .debug_frame   0x00001ff8       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(lseek.o)
- .debug_frame   0x00002018       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(read.o)
- .debug_frame   0x00002038       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
- .debug_frame   0x00002058       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(write.o)
- .debug_frame   0x00002078       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
+ .debug_frame   0x00000410       0x34 Build/clock.o
+ .debug_frame   0x00000444       0x88 Build/ring_buffer.o
+ .debug_frame   0x000004cc      0x158 Build/st7796.o
+ .debug_frame   0x00000624      0x128 Build/st7796_gfx.o
+ .debug_frame   0x0000074c      0x13c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-findfp.o)
+ .debug_frame   0x00000888       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fwalk.o)
+ .debug_frame   0x000008bc       0x78 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sprintf.o)
+ .debug_frame   0x00000934       0x8c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-stdio.o)
+ .debug_frame   0x000009c0       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memset.o)
+ .debug_frame   0x000009ec       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-closer.o)
+ .debug_frame   0x00000a18       0x3c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-reent.o)
+ .debug_frame   0x00000a54       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-lseekr.o)
+ .debug_frame   0x00000a80       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-readr.o)
+ .debug_frame   0x00000aac       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-writer.o)
+ .debug_frame   0x00000ad8       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-init.o)
+ .debug_frame   0x00000b04       0xb0 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-lock.o)
+ .debug_frame   0x00000bb4       0x5c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-__call_atexit.o)
+ .debug_frame   0x00000c10       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-atexit.o)
+ .debug_frame   0x00000c30       0x84 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-freer.o)
+ .debug_frame   0x00000cb4       0x4c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mallocr.o)
+ .debug_frame   0x00000d00       0x30 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mlock.o)
+ .debug_frame   0x00000d30       0x40 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-svfprintf.o)
+ .debug_frame   0x00000d70       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-ssprint_r.o)
+ .debug_frame   0x00000da4       0x3c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fclose.o)
+ .debug_frame   0x00000de0       0x70 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fflush.o)
+ .debug_frame   0x00000e50       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-strncpy.o)
+ .debug_frame   0x00000e78       0xec C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-locale.o)
+ .debug_frame   0x00000f64       0x40 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-localeconv.o)
+ .debug_frame   0x00000fa4       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sbrkr.o)
+ .debug_frame   0x00000fd0       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fini.o)
+ .debug_frame   0x00001004       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sysconf.o)
+ .debug_frame   0x0000102c       0x4c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memchr.o)
+ .debug_frame   0x00001078       0x30 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-strlen.o)
+ .debug_frame   0x000010a8       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libm_a-s_frexp.o)
+ .debug_frame   0x000010d4       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-__atexit.o)
+ .debug_frame   0x00001108       0x84 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-dtoa.o)
+ .debug_frame   0x0000118c      0x130 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mbtowc_r.o)
+ .debug_frame   0x000012bc      0x288 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-mprec.o)
+ .debug_frame   0x00001544       0x8c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wctomb_r.o)
+ .debug_frame   0x000015d0       0x60 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wcrtomb.o)
+ .debug_frame   0x00001630       0x50 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wcsrtombs.o)
+ .debug_frame   0x00001680       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-ctype_.o)
+ .debug_frame   0x000016a0       0x34 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-ssputs_r.o)
+ .debug_frame   0x000016d4       0x30 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memmove.o)
+ .debug_frame   0x00001704       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-errno.o)
+ .debug_frame   0x00001724       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-memcpy.o)
+ .debug_frame   0x0000174c       0x40 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-assert.o)
+ .debug_frame   0x0000178c       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-callocr.o)
+ .debug_frame   0x000017b8       0x48 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-reallocr.o)
+ .debug_frame   0x00001800       0x84 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wcsnrtombs.o)
+ .debug_frame   0x00001884       0x70 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fiprintf.o)
+ .debug_frame   0x000018f4       0x8c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-vfiprintf.o)
+ .debug_frame   0x00001980       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-sprint_r.o)
+ .debug_frame   0x000019a8       0x60 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fvwrite.o)
+ .debug_frame   0x00001a08       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-wsetup.o)
+ .debug_frame   0x00001a34       0x28 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-abort.o)
+ .debug_frame   0x00001a5c       0x6c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-makebuf.o)
+ .debug_frame   0x00001ac8      0x11c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signal.o)
+ .debug_frame   0x00001be4       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-fstatr.o)
+ .debug_frame   0x00001c10       0x2c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-isattyr.o)
+ .debug_frame   0x00001c3c       0x3c C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a(libc_a-signalr.o)
+ .debug_frame   0x00001c78       0xac C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x00001d24       0x50 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x00001d74       0xc4 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x00001e38       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_unorddf2.o)
+ .debug_frame   0x00001e58       0x24 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7e-m+fp/hard\libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x00001e7c       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(close.o)
+ .debug_frame   0x00001e9c       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(fstat.o)
+ .debug_frame   0x00001ebc       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(getpid.o)
+ .debug_frame   0x00001edc       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(isatty.o)
+ .debug_frame   0x00001efc       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(kill.o)
+ .debug_frame   0x00001f1c       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(lseek.o)
+ .debug_frame   0x00001f3c       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(read.o)
+ .debug_frame   0x00001f5c       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
+ .debug_frame   0x00001f7c       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(write.o)
+ .debug_frame   0x00001f9c       0x20 C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
 
 .debug_line_str
                 0x00000000      0x212

@@ -3,11 +3,12 @@
 #include "uart.h"
 #include "timer.h"
 #include "spi.h"
-#include "st7735_gfx.h"
 #include "rtc.h"
-#include "tm1638.h"
 #include "gpio.h"
 #include "clock.h"
+
+#include "st7796_gfx.h"
+#include "ST7796.h"
 
 //#include "i2c.h"
 //#include "aht20.h"
@@ -26,11 +27,10 @@ int main(void)
 	SPI1_init();
 	RTC_init();
 
-	ST7735_init();
-	tm1638_init();
+	ST7796_init();
 
 
-	ST7735_FillRect(0,0,160,128,BLACK);
+	ST7796_FillRect(0,0,160,128,BLACK);
 	USART1_send_string("start \r\n"); 
 
 //	RTC_setTime(17,33);

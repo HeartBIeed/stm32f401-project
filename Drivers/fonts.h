@@ -11,7 +11,7 @@
 
 #include "main.h"
 
-typedef enum ST7735_Colors {
+typedef enum ST7796_Colors {
     BLACK       = 0x0000,
     WHITE       = 0xFFFF,
     RED         = 0xF800,
@@ -39,7 +39,7 @@ typedef enum ST7735_Colors {
     SOFT_GREEN  = 0x87F0,
     SOFT_BLUE   = 0x545F,
 
-} ST7735_Color;
+} ST7796_Color;
 
 typedef struct {
     const uint8_t width;
